@@ -30,7 +30,7 @@ For more information and to access publicly available research materials, feel f
 
 <br />
 
-<h2 id="Experience">Academic & Professional Experience</h2>
+<h3 id="Experience">Academic & Professional Experience</h3>
 
 | Title                     | Institution                                                    | Period              |
 |---------------------------|----------------------------------------------------------------|---------------------|
