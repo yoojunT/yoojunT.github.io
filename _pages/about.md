@@ -25,7 +25,7 @@ For more information and to access publicly available research materials, feel f
 |---------------------------|----------------------------------------------------------------|---------------------|
 | Ph.D.                     | Construction Science, Texas A&M University                     | May 2025 (Expected) |
 | M.E.                      | Computer Engineering, Texas A&M University                     | May 2025 (Expected) |
-| M.S.                      | Construction Engineering and Management, Inha University, Korea| 2018                |
+| M.S.                      | Architectural Engineering, Inha University, Korea              | 2018                |
 | B.S.                      | Architectural Engineering, Inha University, Korea              | 2016                |
 
 <br />
