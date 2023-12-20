@@ -6,7 +6,7 @@ author_profile: true
 ---
 <h2 id="Pub">Publications</h2>
 
-### Peer-Reviewed Journal Articles
+## Peer-Reviewed Journal Articles
 1. **Kim, Y.**, Ham, Y., Enhancing spatio-temporal understanding of heat risks in construction: A digital twin-enabled heat risk monitoring. (Under review)
 1. **Kim, Y.**, Ham, Y., Revealing the impact of heat radiation on construction: A microclimate simulation utilizing meteorological data and geometric modeling. *Journal of Construction Engineering and Management, ASCE, 2023.* (Accepted)
 1. You, C. F., **Kim, Y.**, Jeong, W., Chi, H., Kim, M., A study on the external stone cladding system in production and installation stages: The case of Hong Kong. *Applied Sciences, MDPI, 10(22), 2020.* ([Link](https://www.mdpi.com/2076-3417/10/22/8207))
@@ -16,7 +16,7 @@ author_profile: true
 
 <br />
 
-### Peer-Reviewed Papers in Conference Proceedings
+## Peer-Reviewed Papers in Conference Proceedings
 
 1. **Kim, Y.**, Ham, Y., Proactive heat safety management: Leveraging advanced forecasting systems for occupational heat risk preparedness. *2024 Canadian Society for Civil Engineering (CSCE), Ontario, Canada, June. 5-7, 2024.* (Submitted)
 1. **Kim, Y.**, Ham, Y., Heat stress monitoring in construction for risk-informed decision-making. *2024 ASCE Construction Research Congress (CRC), Des Moines, IA, Mar. 20-23, 2024.* (Accepted)
