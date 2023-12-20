@@ -32,8 +32,8 @@ For more information and to access publicly available research materials, feel f
 
 <h2 id="Experience">Academic & Professional Experience</h2>
 
-|   Title              | Institution                                                      | Period         |
-|----------------------|------------------------------------------------------------------|---------------:|
+| Title                | Institution                                                      | Period         |
+|----------------------|------------------------------------------------------------------|----------------|
 | Research Assistant   | Texas A&M University                                             | 2021 – Present |
 | Researcher           | Sungkyunkwan University, Korea                                   | 2020 – 2021    |
 | Researcher           | Engineering Fee Standards Institute, Korea                       | 2018 – 2020    |
