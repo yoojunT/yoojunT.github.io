@@ -29,13 +29,13 @@ author_profile: true
 
 <h2 id="Presentation">Professional Presentations & Showcases</h2>
 
-1. Poster Presenter, “Working in Heat: Personalized Heat Risk Monitoring to Enhance Workplace Safety”, **2024 ASCE Construction Research Congress (CRC), Des Moines, IA, Mar. 20-23, 2024.** (Accepted)
-1. Presenter, “Digital Twin for Safer and Heat-Resilient Construction”, **TED Talks – Health, School of Architecture (SOA) Showcase, Texas A&M University, College Station, TX, Oct. 5, 2023.**
-1. Poster Presenter, “Personalized Heat Risk Monitoring: Enhancing Safety in Heat-Vulnerable Work Environments”, **School of Architecture (SOA) Showcase, Texas A&M University, College Station, TX, Oct. 5, 2023.**
-1. Guest Lecturer, “Heat-Resilient Construction: Enhancing Safety through Digital Twin Technology for Heat Risk Management”, **Graduate Seminar (COSC 681), Texas A&M University, TX, Aug. 28, 2023.**
-1. Presenter, “Digital twin-based framework to enhance heat resilience in construction workplaces”, **24th Annual Research Symposium of School of Architecture, Texas A&M University, College Station, TX, Oct. 3, 2022.**
-1. Presenter, “Rebar occlusion handling for construction worker detection using a data augmentation technique”, **23rd Annual Research Symposium of College of Architecture, Texas A&M University, College Station, TX, Oct. 1, 2021.**
-1. Presenter, “The development of around view monitoring system prototype for excavator”, **International Workshop on Smart Operation of Heavy Equipment, Hanyang University, Seoul, Korea, Feb. 14, 2017.**
+1. **Poster Presenter**, “Working in Heat: Personalized Heat Risk Monitoring to Enhance Workplace Safety”, **2024 ASCE Construction Research Congress (CRC), Des Moines, IA, Mar. 20-23, 2024.** (Accepted)
+1. **Presenter**, “Digital Twin for Safer and Heat-Resilient Construction”, **TED Talks – Health, School of Architecture (SOA) Showcase, Texas A&M University, College Station, TX, Oct. 5, 2023.**
+1. **Poster Presenter**, “Personalized Heat Risk Monitoring: Enhancing Safety in Heat-Vulnerable Work Environments”, **School of Architecture (SOA) Showcase, Texas A&M University, College Station, TX, Oct. 5, 2023.**
+1. **Guest Lecturer**, “Heat-Resilient Construction: Enhancing Safety through Digital Twin Technology for Heat Risk Management”, **Graduate Seminar (COSC 681), Texas A&M University, TX, Aug. 28, 2023.**
+1. **Presenter**, “Digital twin-based framework to enhance heat resilience in construction workplaces”, **24th Annual Research Symposium of School of Architecture, Texas A&M University, College Station, TX, Oct. 3, 2022.**
+1. **Presenter**, “Rebar occlusion handling for construction worker detection using a data augmentation technique”, **23rd Annual Research Symposium of College of Architecture, Texas A&M University, College Station, TX, Oct. 1, 2021.**
+1. **Presenter**, “The development of around view monitoring system prototype for excavator”, **International Workshop on Smart Operation of Heavy Equipment, Hanyang University, Seoul, Korea, Feb. 14, 2017.**
 
 <br />
 
