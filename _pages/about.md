@@ -27,3 +27,14 @@ For more information and to access publicly available research materials, feel f
 | M.E.         | Computer Engineering, Texas A&M University                           | May 2025 (Expected) |
 | M.S.         | Construction Engineering and Management, Inha University, Korea      | 2018                |
 | B.S.         | Architectural Engineering, Inha University, Korea                    | 2016                |
+
+<div style="clear: both;"></div>
+
+<h2 id="Experience">Academic & Professional Experience</h2>
+
+|   Title              | Institution                                                      | Period         |
+|----------------------|------------------------------------------------------------------|---------------:|
+| Research Assistant   | Texas A&M University                                             | 2021 – Present |
+| Researcher           | Sungkyunkwan University, Korea                                   | 2020 – 2021    |
+| Researcher           | Engineering Fee Standards Institute, Korea                       | 2018 – 2020    |
+| Research Assistant   | Inha University, Korea                                           | 2015 – 2018    |
