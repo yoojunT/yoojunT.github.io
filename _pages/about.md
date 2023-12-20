@@ -28,7 +28,7 @@ For more information and to access publicly available research materials, feel f
 | M.S.         | Construction Engineering and Management, Inha University, Korea      | 2018                |
 | B.S.         | Architectural Engineering, Inha University, Korea                    | 2016                |
 
-<div style="clear: both;"></div>
+<br />
 
 <h2 id="Experience">Academic & Professional Experience</h2>
 
