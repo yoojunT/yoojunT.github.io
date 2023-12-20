@@ -3,7 +3,7 @@ title: ""
 permalink: /award/
 author_profile: true
 ---
-<h2 id="SelectedHonor">Selected Awards & Honors</h2>
+<h3 id="SelectedHonor">Selected Awards & Honors</h3>
 
 * **Extramural Scholarship ($5,000)**, Korean-American Construction Engineering and Project Management Association (KACEPMA) & Hanmi Global, Corvallis, OR, 2023 ([Link](https://news.nate.com/view/20230712n08401))
 * **Best Paper Award**, The 9th International Conference on Construction Engineering and Project Management (ICCEPM), Las Vegas, NV, 2022 ([Link](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=hYRXPWgAAAAJ&sortby=pubdate&citation_for_view=hYRXPWgAAAAJ:YsMSGLbcyi4C))
@@ -12,7 +12,7 @@ author_profile: true
 
 <br />
 
-<h2 id="OtherHonor">Other Awards & Honors</h2>
+<h3 id="OtherHonor">Other Awards & Honors</h3>
 
 * **Graduate Student Travel Grant Award**, Texas A&M University, 2023
 * **Research Assistantships and Tuition Scholarships**, Texas A&M University, 2021 – Present
