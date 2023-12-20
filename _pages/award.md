@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: ""
 permalink: /award/
 author_profile: true
