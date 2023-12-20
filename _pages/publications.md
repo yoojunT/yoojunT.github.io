@@ -3,7 +3,7 @@ title: ""
 permalink: /publications/
 author_profile: true
 ---
-<h2 id="Article">Peer-Reviewed Journal Articles</h2>
+<h3 id="Article">Peer-Reviewed Journal Articles</h3>
 
 1. **Kim, Y.**, Ham, Y., Enhancing spatio-temporal understanding of heat risks in construction: A digital twin-enabled heat risk monitoring. (Under review)
 1. **Kim, Y.**, Ham, Y., Revealing the impact of heat radiation on construction: A microclimate simulation utilizing meteorological data and geometric modeling. *Journal of Construction Engineering and Management, ASCE, 2023.* (Accepted)
@@ -14,7 +14,7 @@ author_profile: true
 
 <br />
 
-<h2 id="Conference">Peer-Reviewed Papers in Conference Proceedings</h2>
+<h3 id="Conference">Peer-Reviewed Papers in Conference Proceedings</h3>
 
 1. **Kim, Y.**, Ham, Y., Proactive heat safety management: Leveraging advanced forecasting systems for occupational heat risk preparedness. *2024 Canadian Society for Civil Engineering (CSCE), Ontario, Canada, June. 5-7, 2024.* (Submitted)
 1. **Kim, Y.**, Ham, Y., Heat stress monitoring in construction for risk-informed decision-making. *2024 ASCE Construction Research Congress (CRC), Des Moines, IA, Mar. 20-23, 2024.* (Accepted)
@@ -25,7 +25,7 @@ author_profile: true
 
 <br />
 
-<h2 id="Presentation">Professional Presentations & Showcases</h2>
+<h3 id="Presentation">Professional Presentations & Showcases</h3>
 
 1. **Poster Presenter**, “Working in Heat: Personalized Heat Risk Monitoring to Enhance Workplace Safety”, *2024 ASCE Construction Research Congress (CRC), Des Moines, IA, Mar. 20-23, 2024.* (Accepted)
 1. **Presenter**, “Digital Twin for Safer and Heat-Resilient Construction”, *TED Talks – Health, School of Architecture (SOA) Showcase, Texas A&M University, College Station, TX, Oct. 5, 2023.*
@@ -37,7 +37,7 @@ author_profile: true
 
 <br />
 
-<h2 id="Patents">Registered Patents</h2>
+<h3 id="Patents">Registered Patents</h3>
 
 1. Concrete pile head cutting apparatus, Korea Patent (#10-2126262), 2020
 1. Steel pile head fixing and cutting apparatus, Korea Patent (#10-2106021), 2020
