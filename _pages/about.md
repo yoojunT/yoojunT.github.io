@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<h3 id="Intro">About Me</h3>
+<h2 id="Intro">About Me</h2>
 
 <img src="./files/DT_f.png" alt="Photo" style="width: 350px; border-radius: 10px; padding: 8px; float: right; margin-left: 20px; margin-bottom: 5px;"/>
 
@@ -19,7 +19,7 @@ For more information and to access publicly available research materials, feel f
 
 <div style="clear: both;"></div>
 
-<h3 id="Edu">Education</h3>
+<h2 id="Edu">Education</h2>
 
 | Degree  | Field of Study & University                                                                 | Year of Graduation  |
 |---------|---------------------------------------------------------------------------------------------|---------------------|
@@ -30,7 +30,7 @@ For more information and to access publicly available research materials, feel f
 
 <br />
 
-<h3 id="Experience">Academic & Professional Experience</h3>
+<h2 id="Experience">Academic & Professional Experience</h2>
 
 | Title                     | Institution                                                    | Period              |
 |---------------------------|----------------------------------------------------------------|---------------------|
