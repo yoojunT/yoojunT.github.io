@@ -3,6 +3,7 @@ title: ""
 permalink: /publications/
 author_profile: true
 ---
+<h2 id="Pub">Publication</h2>
 <h3 id="Article">Peer-Reviewed Journal Articles</h3>
 
 1. **Kim, Y.**, Ham, Y., Enhancing spatio-temporal understanding of heat risks in construction: A digital twin-enabled heat risk monitoring. (Under review)
@@ -11,8 +12,6 @@ author_profile: true
 1. **Kim, Y.**, Yeom, D., Kim, Y., Development of construction duration prediction model for project planning phase of mixed-use buildings. *Journal of Asian Architecture and Building Engineering, Taylor & Francis, 18(6), 2019.* ([Link](https://www.tandfonline.com/doi/full/10.1080/13467581.2019.1696207))
 1. Yeom, D., Seo, H., **Kim, Y.**, Cho, C., Kim, Y., Development of an approximate construction duration prediction model during the project planning phase for general office building. *Journal of Civil Engineering and Management, Taylor & Francis, 24(3), 2018.* ([Link](https://journals.vilniustech.lt/index.php/JCEM/article/view/1646))
 1. Yeom, D., Na, E., Lee, Lee, M., **Kim, Y.**, Kim, Y., Cho, C., Performance evaluation and life cycle cost analysis model of a gondola-type exterior wall painting robot. *Sustainability, MDPI, 9(10), 2017.* ([Link](https://www.mdpi.com/2071-1050/9/10/1809))
-
-<br />
 
 <h3 id="Conference">Peer-Reviewed Papers in Conference Proceedings</h3>
 
@@ -25,7 +24,7 @@ author_profile: true
 
 <br />
 
-<h3 id="Presentation">Professional Presentations & Showcases</h3>
+<h2 id="Presentation">Professional Presentations & Showcases</h2>
 
 1. **Poster Presenter**, “Working in Heat: Personalized Heat Risk Monitoring to Enhance Workplace Safety”, *2024 ASCE Construction Research Congress (CRC), Des Moines, IA, Mar. 20-23, 2024.* (Accepted)
 1. **Presenter**, “Digital Twin for Safer and Heat-Resilient Construction”, *TED Talks – Health, School of Architecture (SOA) Showcase, Texas A&M University, College Station, TX, Oct. 5, 2023.*
@@ -37,14 +36,14 @@ author_profile: true
 
 <br />
 
-<h3 id="Patents">Registered Patents</h3>
+<h2 id="Patents">Registered Patents</h2>
 
-1. Concrete pile head cutting apparatus, Korea Patent (#10-2126262), 2020
-1. Steel pile head fixing and cutting apparatus, Korea Patent (#10-2106021), 2020
-1. Concrete pile head fixing apparatus, Korea Patent (#10-210616), 2020
-1. Steel pipe head cutting apparatus, Korea Patent (#10-2079014), 2020
-1. Method for steel pipe head cutting and arranging, Korea Patent (#10-2063639), 2020
-1. Concrete pile head cutting and treating method, Korea Patent (#10-1975648), 2019
-1. Concrete pile head cutting apparatus, Korea Patent (#10-1881251), 2018
-1. Apparatus for compensating around view image distortion according to gradient variation of construction equipment, Korea Patent (#10-1864985), 2018
-1. Concrete pile head cutting apparatus, Korea Patent (#10-1780591), 2017
+1. Concrete pile head cutting apparatus, Korea Patent (#10-2126262), 2020.
+1. Steel pile head fixing and cutting apparatus, Korea Patent (#10-2106021), 2020.
+1. Concrete pile head fixing apparatus, Korea Patent (#10-210616), 2020.
+1. Steel pipe head cutting apparatus, Korea Patent (#10-2079014), 2020.
+1. Method for steel pipe head cutting and arranging, Korea Patent (#10-2063639), 2020.
+1. Concrete pile head cutting and treating method, Korea Patent (#10-1975648), 2019.
+1. Concrete pile head cutting apparatus, Korea Patent (#10-1881251), 2018.
+1. Apparatus for compensating around view image distortion according to gradient variation of construction equipment, Korea Patent (#10-1864985), 2018.
+1. Concrete pile head cutting apparatus, Korea Patent (#10-1780591), 2017.
