@@ -14,7 +14,7 @@ author_profile: true
 
 <h3 id="OtherHonor">Other Awards & Honors</h3>
 
-* **Department Nomination for Outstanding Mentoring Award**, Department of Construction Science, Texas A&M University, 2024.
+* **Departmental Nomination for Outstanding Mentoring Award**, Department of Construction Science, Texas A&M University, 2024.
 * **Graduate Student Travel Grant Award**, Texas A&M University, 2023.
 * **Research Assistantships and Tuition Scholarships**, Texas A&M University, 2021 – Present.
 * **Research and Teaching Assistantships and Tuition Scholarships**, Inha University, Korea, 2016 – 2018.
