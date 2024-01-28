@@ -6,9 +6,9 @@ author_profile: true
 <h3 id="SelectedHonor">Selected Awards & Honors</h3>
 
 * **Extramural Scholarship ($5,000)**, Korean-American Construction Engineering and Project Management Association (KACEPMA) & Hanmi Global, Corvallis, OR, 2023. ([Link](https://news.nate.com/view/20230712n08401))
-* **Best Paper Award**, The 9th International Conference on Construction Engineering and Project Management (ICCEPM), Las Vegas, NV, 2022. ([Link](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=hYRXPWgAAAAJ&sortby=pubdate&citation_for_view=hYRXPWgAAAAJ:YsMSGLbcyi4C))
+* **Best Paper Award**, The 9th International Conference on Construction Engineering and Project Management (ICCEPM), Las Vegas, NV, 2022.
 * **Top Off Scholarship ($15,000)**, Department of Construction Science, Texas A&M University, 2021.
-* **Best Paper Award Runner-up**, The 7th International Conference on Construction Engineering and Project Management (ICCEPM), Chengdu, China, 2017. ([Link](https://www.researchgate.net/publication/360804749_Around_View_Monitoring_System_for_Hydraulic_Excavators)) 
+* **Best Paper Award Runner-up**, The 7th International Conference on Construction Engineering and Project Management (ICCEPM), Chengdu, China, 2017.
 
 <br />
 
