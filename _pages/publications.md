@@ -7,7 +7,7 @@ author_profile: true
 <h3 id="Article">Peer-Reviewed Journal Articles</h3>
 
 1. **Kim, Y.**, Ham, Y., Spatio-temporal heat risk analysis in construction: A digital twin-enabled heat risk monitoring. (Under review)
-1. **Kim, Y.**, Ham, Y., Revealing the impact of heat radiation on construction: A microclimate simulation utilizing meteorological data and geometric modeling. *Journal of Construction Engineering and Management, ASCE, 2024.* (Accepted)
+1. **Kim, Y.**, Ham, Y., Revealing the impact of heat radiation on construction: A microclimate simulation utilizing meteorological data and geometric modeling. *Journal of Construction Engineering and Management, ASCE, 150(4), 2024.* ([Link](https://ascelibrary.org/doi/full/10.1061/JCEMD4.COENG-14023))
 1. You, C. F., **Kim, Y.**, Jeong, W., Chi, H., Kim, M., A study on the external stone cladding system in production and installation stages: The case of Hong Kong. *Applied Sciences, MDPI, 10(22), 2020.* ([Link](https://www.mdpi.com/2076-3417/10/22/8207))
 1. **Kim, Y.**, Yeom, D., Kim, Y., Development of construction duration prediction model for project planning phase of mixed-use buildings. *Journal of Asian Architecture and Building Engineering, Taylor & Francis, 18(6), 2019.* ([Link](https://www.tandfonline.com/doi/full/10.1080/13467581.2019.1696207))
 1. Yeom, D., Seo, H., **Kim, Y.**, Cho, C., Kim, Y., Development of an approximate construction duration prediction model during the project planning phase for general office building. *Journal of Civil Engineering and Management, Taylor & Francis, 24(3), 2018.* ([Link](https://journals.vilniustech.lt/index.php/JCEM/article/view/1646))
