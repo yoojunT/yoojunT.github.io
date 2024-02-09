@@ -23,7 +23,7 @@ For more information and to access publicly available research materials, feel f
 
 | Degree  | Field of Study & University                                                                 | Year of Graduation  |
 |---------|---------------------------------------------------------------------------------------------|---------------------|
-| Ph.D.   | Construction Science (Smart Construction), Texas A&M University                             | August 2025 (Expected) |
+| Ph.D.   | Construction Science (Smart Construction), Texas A&M University                             | 8/2025 (Expected)   |
 | M.S.    | Architectural Engineering (Construction Engineering and Management), Inha University, Korea | 2018                |
 | B.S.    | Architectural Engineering, Inha University, Korea                                           | 2016                |
 
