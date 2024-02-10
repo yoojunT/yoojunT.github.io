@@ -3,7 +3,7 @@ title: ""
 permalink: /publications/
 author_profile: true
 ---
-<h2 id="Pub">Publications</h2>
+<h2 id="Pub">Publication</h2>
 <h3 id="Article">Peer-Reviewed Journal Articles</h3>
 
 1. **Kim, Y.**, Ham, Y., Spatio-temporal heat risk analysis in construction: A digital twin-enabled heat risk monitoring. (In Review)
