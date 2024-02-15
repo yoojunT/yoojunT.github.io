@@ -13,7 +13,7 @@ author_profile: true
 1. Yeom, D., Seo, H., **Kim, Y.**, Cho, C., Kim, Y., Development of an approximate construction duration prediction model during the project planning phase for general office building. *Journal of Civil Engineering and Management, Taylor & Francis, 24(3), 2018.* [[Link](https://journals.vilniustech.lt/index.php/JCEM/article/view/1646)]
 1. Yeom, D., Na, E., Lee, Lee, M., **Kim, Y.**, Kim, Y., Cho, C., Performance evaluation and life cycle cost analysis model of a gondola-type exterior wall painting robot. *Sustainability, MDPI, 9(10), 2017.* [[Link](https://www.mdpi.com/2071-1050/9/10/1809)]
 
-<h3 id="Conference">Peer-Reviewed Papers in Conference Proceedings</h3>
+<h3 id="Conference">Peer-Reviewed Conference Articles</h3>
 
 1. **Kim, Y.**, Ham, Y., Proactive heat safety management: Leveraging advanced forecasting systems for occupational heat risk preparedness. *2024 Canadian Society for Civil Engineering (CSCE), Ontario, Canada, June. 5-7, 2024.* (Abstract accepted)
 1. **Kim, Y.**, Ham, Y., Heat stress monitoring in construction for risk-informed decision-making. *2024 ASCE Construction Research Congress (CRC), Des Moines, IA, Mar. 20-23, 2024.* (Accepted)
