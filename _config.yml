@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yoojun Kim, PhD Candidate"
+title                    : "Yoojun Kim, PhD Student"
 title_separator          : "-"
 name                     : &name "Yoojun Kim"
 description              : &description "Personal Website"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Yoojun Kim"
   avatar           : "profile.png"
-  bio              : "PhD Candidate, Texas A&M University"
+  bio              : "PhD Student, Texas A&M University"
   location         : "College Station, TX, USA"
   employer         : 
   pubmed           : 
