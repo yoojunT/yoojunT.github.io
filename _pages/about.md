@@ -9,7 +9,7 @@ redirect_from:
 ---
 <h2 id="Intro">About Me</h2>
 
-<img src="./files/DT_f.png" alt="Photo" style="width: 300px; border-radius: 10px; padding: 8px; float: right; margin-left: 20px; margin-bottom: 5px;"/>
+<img src="./files/DT_f.png" alt="Photo" style="width: 250; border-radius: 10px; padding: 8px; float: right; margin-left: 20px; margin-bottom: 5px;"/>
 
 Hi! I'm Yoojun Kim (feel free to call me Jun). I'm a PhD Candidate in Construction Science at Texas A&M University with an expected graduation of May 2025.
 
