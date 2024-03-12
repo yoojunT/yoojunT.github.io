@@ -33,7 +33,7 @@ For more information and to access publicly available research materials, feel f
 
 | Title                     | Institution                                                    | Period              |
 |---------------------------|----------------------------------------------------------------|---------------------|
-| Research Assistant        | Texas A&M University                                           | 2021 – Present      |
+| Research Assistant        | Texas A&M University                                           | 8/2021 – Present    |
 | Researcher                | Sungkyunkwan University, Korea                                 | 2020 – 2021         |
 | Researcher                | Engineering Fee Standards Institute, Korea                     | 2018 – 2020         |
 | Research Assistant        | Inha University, Korea                                         | 2015 – 2018         |
