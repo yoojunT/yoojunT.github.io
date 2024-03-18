@@ -13,7 +13,7 @@ redirect_from:
 
 My name is Yoojun Kim, but feel free to call me Jun. I am a PhD Candidate in Construction Science at Texas A&M University, with an expected graduation in May 2025.
 
-My research is centered around Human-Environment Interaction, leveraging Digital Twin (DT) solutions to advance smarter and more resilient cities and construction practices. Under the guidance of my advisor, [Dr. Youngjib Ham](https://www.arch.tamu.edu/staff/youngjib-ham/), I am exploring the potential of DT frameworks to revolutionize the field. The adjacent image displays a conceptual overview of the DT frameworks.
+My research is centered around Human-Environment Interaction, leveraging Digital Twin (DT) solutions to advance smarter and more resilient cities and construction practices. Under the guidance of my advisor, [Dr. Youngjib Ham](https://www.arch.tamu.edu/staff/youngjib-ham/), I am exploring how DT frameworks can contribute to advancements in the field.
 
 For more information and to access publicly available research materials, please visit my [GitHub](https://github.com/yoojunT/).
 
