@@ -16,7 +16,7 @@ author_profile: true
 <h3 id="Conference">Peer-Reviewed Conference Articles</h3>
 
 1. **Kim, Y.**, Ham, Y., Enhancing occupational heat risk preparedness through the integration of public weather forecasts and on-site observations. *2024 Canadian Society for Civil Engineering (CSCE), Ontario, Canada, June 5-7, 2024.* (Submitted)
-1. **Kim, Y.**, Ham, Y., Heat stress monitoring in construction for risk-informed decision-making. *2024 ASCE Construction Research Congress (CRC), Des Moines, IA, Mar. 20-23, 2024.* (Accepted)
+1. **Kim, Y.**, Ham, Y., Heat stress monitoring in construction for risk-informed decision-making. *2024 ASCE Construction Research Congress (CRC), Des Moines, IA, Mar. 20-23, 2024.* [[Link](https://ascelibrary.org/doi/abs/10.1061/9780784485262.008)]
 1. **Kim, Y.**, Ham, Y., Digital twin-based heat stress monitoring system in construction. *2023 ASCE International Conference on Computing in Civil Engineering (i3CE), Corvallis, OR, June 25-28, 2023.* [[Link](https://ascelibrary.org/doi/abs/10.1061/9780784485248.080)]
 1. **Kim, Y.**, Kim H., Sim, S., Ham, Y., Enhancing occlusion robustness for vision-based construction worker detection using data augmentation. *the 9th International Conference on Construction Engineering and Project Management (ICCEPM), Las Vegas, NV, June 20-23, 2022.* [[Link](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=hYRXPWgAAAAJ&sortby=pubdate&citation_for_view=hYRXPWgAAAAJ:YsMSGLbcyi4C)] (**Best Paper Award**)
 1. Yeom, D., Hong, Y., **Kim, Y.**, Yoo, H., Kim, Y., Around view monitoring system for hydraulic excavators. *the 7th International Conference on Construction Engineering and Project Management (ICCEPM), Chengdu, China, Oct. 27-30, 2017.* [[Link](https://www.researchgate.net/publication/360804749_Around_View_Monitoring_System_for_Hydraulic_Excavators)] (**Best Paper Award Runner-up**)
@@ -26,7 +26,7 @@ author_profile: true
 
 <h2 id="Presentation">Professional Presentations & Showcases</h2>
 
-1. **Poster Presenter**, “Working in Heat: Personalized Heat Risk Monitoring to Enhance Workplace Safety”, *2024 ASCE Construction Research Congress (CRC), Des Moines, IA, Mar. 20-23, 2024.* (Accepted)
+1. **Poster Presenter**, “Working in Heat: Personalized Heat Risk Monitoring to Enhance Workplace Safety”, *2024 ASCE Construction Research Congress (CRC), Des Moines, IA, Mar. 20-23, 2024.*
 1. **Presenter**, “Digital Twin for Safer and Heat-Resilient Construction”, *TED Talks – Health, School of Architecture (SOA) Showcase, Texas A&M University, College Station, TX, Oct. 5, 2023.*
 1. **Poster Presenter**, “Personalized Heat Risk Monitoring: Enhancing Safety in Heat-Vulnerable Work Environments”, *School of Architecture (SOA) Showcase, Texas A&M University, College Station, TX, Oct. 5, 2023.*
 1. **Guest Lecturer**, “Heat-Resilient Construction: Enhancing Safety through Digital Twin Technology for Heat Risk Management”, *Graduate Seminar (COSC 681), Texas A&M University, TX, Aug. 28, 2023.*
