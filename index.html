@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profile2.png" alt="Yoojun Kim" width="80"  style="border-radius: 15px;">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Yoojun Kim">Yoojun Kim</h1>
+
+          <p class="title">PhD Candidate</p>
+        </div>
+
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:yoojun@tamu.edu" class="contact-link">yoojun at tamu dot edu</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>College Station, TX</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://scholar.google.com/citations?hl=en&user=hYRXPWgAAAAJ" class="social-link">
+              <ion-icon name="school-sharp"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/yoojun-kim-243b27169/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/yoojunT" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li> -->
+          
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publication</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            My name is Yoojun Kim, but feel free to call me Jun. I am a PhD candidate in Construction Science and am concurrently pursuing a Master’s degree in Computer Engineering at Texas A&M University, with graduation from both programs expected in May 2025.
+            
+          </p>
+
+          <p>
+            My research is centered around Human-Environment Interaction, leveraging Digital Twin (DT) solutions to advance smarter and more resilient cities and construction practices.
+            Under the guidance of my advisor, <a href="https://www.arch.tamu.edu/staff/youngjib-ham/" style="color: hsl(45, 100%, 72%); display: inline;">Dr. Youngjib Ham</a>, I am exploring how DT frameworks can contribute to advancements in the field.
+          </p>
+        </section>
+
+        <!--
+        Education
+        -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="school-sharp"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Texas A&M University, TX</h4>
+              <p class="timeline-text">
+                - Doctor of Philosophy in Construction Science (Smart Construction), May 2025
+              </p>
+
+              <p class="timeline-text">
+                - Master of Engineering in Computer Engineering, May 2025
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Inha University, South Korea</h4>
+              <p class="timeline-text">
+                - Master of Science in Architectural Engineering (Construction Management), 2018
+              </p>
+
+              <p class="timeline-text">
+                - Bachelor of Science in Architectural Engineering, 2016
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+        
+        <!--
+        Experience
+        -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="business"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"><a href="https://www.hamresearchgroup.com/" style="color: hsl(45, 100%, 72%); display: inline;">Smart Construction, Smart City, Smart Building Lab</a>
+                <span style="color: white; font-weight: light; display: inline;">@ Texas A&M University, TX</span>
+              
+              </h4>
+              <p class="timeline-text">
+                Research Assitant (Supervisor: <a href="https://scholar.google.com/citations?user=ZGKRsE8AAAAJ&hl=en" style="color: hsl(45, 100%, 72%); display: inline;">Dr. Youngjib Ham</a>)
+                , 2021 ~ Present
+              </p>
+
+            </li>
+            
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"><a href="http://shm.skku.edu/" style="color: hsl(45, 100%, 72%); display: inline;">Smart Construction Lab</a>
+                <span style="color: white; font-weight: light; display: inline;">@ Sungkyunkwan University, South Korea</span>
+              
+              </h4>
+              <p class="timeline-text">
+                Researcher (Supervisor: <a href="https://scholar.google.com/citations?hl=en&user=LSYYr80AAAAJ" style="color: hsl(45, 100%, 72%); display: inline;">Dr. Sung-Ham Sim</a>)
+                , 2020 ~ 2021
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"><a href="http://www.kenca.org/main/index.jsp" style="color: hsl(45, 100%, 72%); display: inline;">Engineering Fee Standards Institute</a>
+                <span style="color: white; font-weight: light; display: inline;">@ Korea Engineering & Consulting Association, South Korea</span>
+              
+              </h4>
+              <p class="timeline-text">
+                Researcher, 2018 — 2020
+              </p>
+
+            </li>
+            
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"><a style="color: white; display: inline;">Construction Automation Lab</a>
+                <span style="color: white; font-weight: light; display: inline;">@ Inha University, South Korea</span>
+              
+              </h4>
+              <p class="timeline-text">
+                Research Assistant (Supervisor: <a href="https://www.researchgate.net/profile/Youngsuk-Kim" style="color: hsl(45, 100%, 72%); display: inline;">Dr. Youngsuk Kim</a>)
+                , 2015 ~ 2018
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <!--
+        Awards
+        -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="ribbon"></ion-icon>
+            </div>
+
+            <h3 class="h3">Honors & Awards</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <p class="timeline-text">
+                <span style="color: white; font-weight: bold; display: inline;">Outstanding Ph.D. Student Service Award (Mentoring and Academic Service)</span><span style="color: hsl(0, 0%, 84%); display: inline;">, Texas A&M University, 2024</span>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <p class="timeline-text">
+                <span style="color: white; font-weight: bold; display: inline;">Extramural Scholarship ($5,000)</span><span style="color: hsl(0, 0%, 84%); display: inline;">, Korean-American Construction Engineering and Project Management Association (KACEPMA) & Hanmi Global, Corvallis, OR, 2023</span>
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <p class="timeline-text">
+                <span style="color: white; font-weight: bold; display: inline;">Best Paper Award</span><span style="color: hsl(0, 0%, 84%); display: inline;">, The 9th International Conference on Construction Engineering and Project Management (ICCEPM), Las Vegas, NV, 2022</span>
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <p class="timeline-text">
+                <span style="color: white; font-weight: bold; display: inline;">Top Off Scholarship ($15,000)</span><span style="color: hsl(0, 0%, 84%); display: inline;">, Department of Construction Science, Texas A&M University, 2021</span>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <p class="timeline-text">
+                <span style="color: white; font-weight: bold; display: inline;">Best Paper Award Runner-up</span><span style="color: hsl(0, 0%, 84%); display: inline;">, The 7th International Conference on Construction Engineering and Project Management (ICCEPM), Chengdu, China, 2017</span>
+              </p>
+            </li>
+          </ol>
+
+        </section>
+
+       
+      </article>
+            <!--
+        - #Research
+      -->
+
+      <!-- <article class="research" data-page="research">
+
+        <header>
+          <h2 class="h2 article-title">research</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Smart Construction</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Smart City</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Smart Construction</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Smart City</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="Smart Construction">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Digital Twins</h3>
+
+                <p class="project-category">Smart Construction</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Heat Risk Forecasting</h3>
+
+                <p class="project-category">Smart Construction</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Smart Construction">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Smart City</h3>
+
+                <p class="project-category">Smart City</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article> -->
+
+      <!--
+        - #Publication
+      -->
+
+      <article class="publication" data-page="publication">
+
+        <header>
+          <h2 class="h2 article-title">publication</h2>
+        </header>
+        
+        <header>
+          <h3 class="journal-text">Peer-Reviewed Journal Articles
+          </h3>
+        </header>
+        
+        <section>
+          <ol class="publication-list">
+            <li class="publication-text">
+              6.&nbsp&nbsp <b>Kim, Y.</b>, Ham, Y., Spatio-temporal heat risk analysis in construction: A digital twin-enabled heat risk monitoring. (Under Review)
+            </li>
+            <li class="publication-text">
+              5.&nbsp&nbsp <strong>Kim, Y.</strong>, Ham, Y., Revealing the impact of heat radiation on construction: A microclimate simulation utilizing meteorological data and geometric modeling. 
+              <em>Journal of Construction Engineering and Management, ASCE, 150(4), 2024.</em> 
+              <a href="https://ascelibrary.org/doi/full/10.1061/JCEMD4.COENG-14023" style="color: hsl(45, 100%, 72%); display: inline;">[Link]</a>
+            </li>
+            <li class="publication-text">
+              4.&nbsp&nbsp You, C. F., <strong>Kim, Y.</strong>, Jeong, W., Chi, H., Kim, M., A study on the external stone cladding system in production and installation stages: The case of Hong Kong. 
+              <em>Applied Sciences, MDPI, 10(22), 2020.</em>
+              <a href="https://www.mdpi.com/2076-3417/10/22/8207" style="color: hsl(45, 100%, 72%); display: inline;">[Link]</a>
+              
+            </li>
+            <li class="publication-text">
+              3.&nbsp&nbsp <strong>Kim, Y.</strong>, Yeom, D., Kim, Y., Development of construction duration prediction model for project planning phase of mixed-use buildings.<em>Journal of Asian Architecture and Building Engineering, Taylor & Francis, 18(6), 2019.</em>
+              <a href="https://www.tandfonline.com/doi/full/10.1080/13467581.2019.1696207" style="color: hsl(45, 100%, 72%); display: inline;">[Link]</a>
+              
+            </li>
+            <li class="publication-text">
+              2.&nbsp&nbsp  Yeom, D., Seo, H., <strong>Kim, Y.</strong>, Cho, C., Kim, Y., Development of an approximate construction duration prediction model during the project planning phase for general office building. 
+              <em>Journal of Civil Engineering and Management, Taylor & Francis, 24(3), 2018.</em> 
+              <a href="https://journals.vilniustech.lt/index.php/JCEM/article/view/1646" style="color: hsl(45, 100%, 72%); display: inline;">[Link]</a>
+            </li>
+            <li class="publication-text">
+              1. &nbsp&nbsp Yeom, D., Na, E., Lee, M., <strong>Kim, Y.</strong>, Kim, Y., Cho, C., Performance evaluation and life cycle cost analysis model of a gondola-type exterior wall painting robot. 
+              <em>Sustainability, MDPI, 9(10), 2017.</em> 
+              <a href="https://www.mdpi.com/2071-1050/9/10/1809" style="color: hsl(45, 100%, 72%); display: inline;">[Link]</a>
+            </li>
+          </ol>
+        </section>
+        
+        <header>
+          <h3 class="conference-text">Peer-Reviewed Conference Articles</h3>
+        </header>
+        <section>
+          <ol class="publication-list">
+            <li class="publication-text">
+              6.&nbsp&nbsp <strong>Kim, Y.</strong>, Ham, Y., Enhancing occupational heat risk preparedness through the integration of public weather forecasts and on-site observations.
+              <em>2024 Canadian Society for Civil Engineering (CSCE), Niagara Falls, Ontario, Canada, June 5-7, 2024.</em> (Accepted)
+            </li>
+            <li class="publication-text">
+              5.&nbsp&nbsp <strong>Kim, Y.</strong>, Ham, Y., Heat stress monitoring in construction for risk-informed decision-making.
+              <em>2024 ASCE Construction Research Congress (CRC), Des Moines, IA, Mar. 20-23, 2024.</em> 
+              <a href="https://ascelibrary.org/doi/abs/10.1061/9780784485262.008" style="color: hsl(45, 100%, 72%); display: inline;">[Link]</a>
+            </li>
+            <li class="publication-text">
+              4.&nbsp&nbsp <strong>Kim, Y.</strong>, Ham, Y., Digital twin-based heat stress monitoring system in construction.
+              <em>2023 ASCE International Conference on Computing in Civil Engineering (i3CE), Corvallis, OR, June 25-28, 2023.</em> 
+              <a href="https://ascelibrary.org/doi/abs/10.1061/9780784485248.080" style="color: hsl(45, 100%, 72%); display: inline;">[Link]</a>
+            </li>
+            <li class="publication-text">
+              3.&nbsp&nbsp <strong>Kim, Y.</strong>, Kim H., Sim, S., Ham, Y., Enhancing occlusion robustness for vision-based construction worker detection using data augmentation.
+              <em>The 9th International Conference on Construction Engineering and Project Management (ICCEPM), Las Vegas, NV, June 20-23, 2022.</em>
+              <a href="https://koreascience.kr/article/CFKO202221543162726.page" style="color: hsl(45, 100%, 72%); display: inline;">[Link]</a> (**Best Paper Award**)
+            </li>
+            <li class="publication-text">
+              2.&nbsp&nbsp Yeom, D., Hong, Y., <strong>Kim, Y.</strong>, Yoo, H., Kim, Y., Around view monitoring system for hydraulic excavators.
+              <em>The 7th International Conference on Construction Engineering and Project Management (ICCEPM), Chengdu, China, Oct. 27-30, 2017.</em> 
+              <a href="https://www.researchgate.net/publication/360804749_Around_View_Monitoring_System_for_Hydraulic_Excavators" style="color: hsl(45, 100%, 72%); display: inline;">[Link]</a> (**Best Paper Award Runner-up**)
+            </li>
+            <li class="publication-text">
+              1. &nbsp&nbsp Yeom, D., <strong>Kim, Y.</strong>, Kim, J., Kim, Y., An analysis of contractors' construction productivity to develop a prediction model for construction period.
+              <em>Proceedings of the 2016 Korea Institute of Construction Engineering and Management (KICEM) Annual Conference, Incheon, Korea, Nov. 11, 2016.</em>
+              <a href="https://www.auric.or.kr/User/Rdoc/DocRdoc.aspx?returnVal=RD_R&dn=344420#.YzxFU3bMKUk" style="color: hsl(45, 100%, 72%); display: inline;">[Link]</a>
+            </li>
+          </ol>
+        </section>      
+
+        <header>
+          <h3 class="conference-text">Patents</h3>
+        </header>
+
+        <section>
+          <ol class="publication-list">
+            <li class="publication-text">
+              9.&nbsp&nbsp Concrete pile head cutting apparatus, <em>Korea Patent (#10-2126262), 2020.</em>
+            </li>
+            <li class="publication-text">
+              8.&nbsp&nbsp Steel pile head fixing and cutting apparatus, <em>Korea Patent (#10-2106021), 2020.</em>
+            </li>
+            <li class="publication-text">
+              7.&nbsp&nbsp Concrete pile head fixing apparatus, <em>Korea Patent (#10-210616), 2020.</em>
+            </li>
+            <li class="publication-text">
+              6.&nbsp&nbsp Steel pipe head cutting apparatus, <em>Korea Patent (#10-2079014), 2020.</em>
+            </li>
+            <li class="publication-text">
+              5.&nbsp&nbsp Method for steel pipe head cutting and arranging, <em>Korea Patent (#10-2063639), 2020.</em>
+            </li>
+            <li class="publication-text">
+              4.&nbsp&nbsp Concrete pile head cutting and treating method, <em>Korea Patent (#10-1975648), 2019.</em>
+            </li>
+            <li class="publication-text">
+              3.&nbsp&nbsp Concrete pile head cutting apparatus, <em>Korea Patent (#10-1881251), 2018.</em>
+            </li>
+            <li class="publication-text">
+              2.&nbsp&nbsp Apparatus for compensating around view image distortion according to gradient variation of construction equipment, <em>Korea Patent (#10-1864985), 2018.</em>
+            </li>
+            <li class="publication-text">
+              1. &nbsp&nbsp Concrete pile head cutting apparatus, <em>Korea Patent (#10-1780591), 2017.</em>
+            </li>
+          </ol>
+        </section>
+        
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        
+        <section class="contact-text">
+          <p> <a href="mailto:yoojun@tamu.edu" style="color: hsl(45, 100%, 72%); font-weight: bold; display: inline;">Yoojun Kim</a>
+        </section>
+        
+        <section class="contact-text2">
+          <p> PhD Candidate in Construction Science</p> 
+          <p> ME Student in Computer Engineering</p>         
+          <p> Texas A&M University, College Station, TX</p> 
+        </section>
+
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.839840868563!2d-96.3344!3d30.6188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86468168d1267ad3%3A0xa6907fae43f7bf1f!2sTexas%20A%26M%20University%2C%20Texas%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>       
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
