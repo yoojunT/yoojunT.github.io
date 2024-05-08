@@ -447,12 +447,19 @@ main {
   margin: 0;
 }
 
+.contact-container {
+  display: flex;
+  list-style: none; /* Removes bullet points from <li> */
+  gap: 10px; /* Adjusts spacing between logos */
+  padding-top: 5px;
+  padding-left: 0px;
+  margin: 0;
+}
+
 .social-item .social-link {
   color: var(--light-gray-70);
   font-size: 18px;
 }
-
-
 
 .social-item .social-link:hover { color: var(--light-gray); }
 
@@ -1437,12 +1444,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     right: -30px;
     padding: 10px 15px;
   }
-
-  /* .social-link {
-    text-decoration: none;
-    color: var(--light-gray-70);
-    font-size: 18px;
-  } */
 
   .info_more-btn span {
     display: block;
