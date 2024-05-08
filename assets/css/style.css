@@ -438,10 +438,20 @@ main {
   padding-left: 7px;
 }
 
+.social-container {
+  display: flex;
+  list-style: none; /* Removes bullet points from <li> */
+  gap: 10px; /* Adjusts spacing between logos */
+  padding-top: 5px;
+  padding-left: 0px;
+  margin: 0;
+}
+
 .social-item .social-link {
   color: var(--light-gray-70);
   font-size: 18px;
 }
+
 
 
 .social-item .social-link:hover { color: var(--light-gray); }
@@ -1403,15 +1413,36 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box img { width: 120px; }
 
-  .info-content .name { margin-bottom: 15px; }
+  /* .info-content .name { margin-bottom: 15px; }
 
-  .info-content .title { padding: 5px 18px; }
+  .info-content .title { padding: 5px 18px; } */
+
+  .title-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjusts spacing between text and icon */
+  }
+
+  .info-content .name {
+    margin-bottom: 15px;
+  }
+
+  .info-content .title {
+    padding: 5px 18px;
+    margin: 0; /* Override default <p> margins */
+  }
 
   .info_more-btn {
     top: -30px;
     right: -30px;
     padding: 10px 15px;
   }
+
+  /* .social-link {
+    text-decoration: none;
+    color: var(--light-gray-70);
+    font-size: 18px;
+  } */
 
   .info_more-btn span {
     display: block;
