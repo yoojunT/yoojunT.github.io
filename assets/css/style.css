@@ -518,7 +518,10 @@ main {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
+  padding-left: 13pt;
   line-height: 1.6;
+  padding-right: 20pt;
+  /* text-align: justify; */
 }
 
 .about-text p { margin-bottom: 15px; }
