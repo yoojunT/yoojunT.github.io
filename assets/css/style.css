@@ -450,7 +450,7 @@ main {
 .contact-container {
   display: flex;
   list-style: none; /* Removes bullet points from <li> */
-  gap: 10px; /* Adjusts spacing between logos */
+  gap: 11px; /* Adjusts spacing between logos */
   padding-top: 5px;
   padding-left: 0px;
   margin: 0;
