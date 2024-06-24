@@ -153,8 +153,8 @@
 
           <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Research</button>
-          </li> -->
-          
+          </li>
+           -->
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Publication</button>
           </li>
@@ -360,106 +360,142 @@
       </article>
 
 
-        <!--
-        Research
-        -->
-    
+      <!-- 
+      Research
+      --> 
 
-    
-      <!-- <article class="research" data-page="research">
+      <!-- 
+      
 
-          <header>
-            <h2 class="h2 article-title">research</h2>
-          </header>
-
-          <section class="projects">
-            <ul class="filter-list">
-              <li class="filter-item">
-                <button class="active" data-filter-btn>All</button>
+      <article class="research" data-page="research">
+        <header>
+          <h2 class="h2 article-title">research</h2>
+        </header>
+      
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Smart construction</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Smart city</button>
+            </li>
+          </ul>
+      
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
               </li>
-              <li class="filter-item">
-                <button data-filter-btn>Smart construction</button>
+              <li class="select-item">
+                <button data-select-item>Smart construction</button>
               </li>
-              <li class="filter-item">
-                <button data-filter-btn>Smart city</button>
+              <li class="select-item">
+                <button data-select-item>Smart city</button>
               </li>
             </ul>
-          
-            <div class="filter-select-box">
-              <button class="filter-select" data-select>
-                <div class="select-value" data-selecct-value>Select category</div>
-                
+          </div>
+                  
+          <ul class="project-list">
+            
+            <li class="project-item active" data-filter-item data-category="smart construction">
+              <a href="#" class="openModal"data-modal-target="modal1">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/DT.png" alt="DT" loading="lazy">
+                </figure>
+                <h3 class="project-title">Heat Risk Digital Twins</h3>
+                <p class="project-category">Smart construction</p>
+              </a>
+            </li>
+            
+            <li class="project-item active" data-filter-item data-category="smart construction">
+              <a href="#" class="openModal"data-modal-target="modal2">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/DT.png" alt="DT" loading="lazy">
+                </figure>
+                <h3 class="project-title">Heat Risk Forecasting (Web)</h3>
+                <p class="project-category">Smart construction</p>
+              </a>
+            </li>
 
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
-              </button>
-              <ul class="select-list">
-                <li class="select-item">
-                  <button data-select-item>All</button>
-                </li>
-                <li class="select-item">
-                  <button data-select-item>Smart construction</button>
-                </li>
-                <li class="select-item">
-                  <button data-select-item>Smart city</button>
-                </li>
-              </ul>
+
+            <li class="project-item active" data-filter-item data-category="smart construction">
+              <a href="#" class="openModal">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/DT.png" alt="DT" loading="lazy">
+                </figure>
+                <h3 class="project-title">Heat Risk Forecasting (Mobile)</h3>
+                <p class="project-category">Smart construction</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="smart city">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/DT.png" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Heat-Resilient Cities</h3>
+                <p class="project-category">Smart city</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      
+        
+        <div class="modal-container" id="modal1">
+          <div class="research-modal">
+            <button class="modal-close-btn" data-close-modal="modal1">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-content">
+              <h2 class="h2 article-title">Heat Risk Digtal Twins</h2>
+              <img src="./assets/images/DT.png" alt="DT">
+              <p>This is additional information about the Heat Risk Forecasting project...</p>
             </div>
+          </div>  
+          <div class="overlay"></div>
+        </div>
+        
+        <div class="modal-container" id="modal2">
+          <div class="research-modal">
+            <button class="modal-close-btn" data-close-modal="modal2">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-content">
+              <h2 class="h2 article-titlee">Heat Risk Forecasting - Web</h2>
+              <img src="./assets/images/DT.png" alt="DT">
+              <p>This is additional information about the Heat Risk Forecasting project...</p>
+            </div>
+          </div>
+          <div class="overlay"></div>
+        </div>
 
-            <ul class="project-list">
-
-              <li class="project-item  active" data-filter-item data-category="smart construction">
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-                    <img src="./assets/images/DT.png" alt="DT" loading="lazy">
-                  </figure>
-
-                  <h3 class="project-title">Heat Risk Digital Twins</h3>
-                  <p class="project-category">Smart construction</p>               
-
-                </a>
-              </li>
-
-              <li class="project-item active" data-filter-item data-category="smart construction">
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-                    <img src="./assets/images/DT.png" alt="finance" loading="lazy">
-                  </figure>
-
-                  <h3 class="project-title">Heat Risk Forecasting</h3>
-                  <p class="project-category">Smart construction</p>
-
-                </a>
-              </li>
-
-              <li class="project-item  active" data-filter-item data-category="smart city">
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-                    <img src="./assets/images/DT.png" alt="finance" loading="lazy">
-                  </figure>
-
-                  <h3 class="project-title">Heat-Resilient Cities</h3>
-
-                  <p class="project-category">Smart city</p>
-
-                </a>
-              </li>
-
-            </ul>
-
-          </section>
-
-      </article> -->
+      </article> 
+      
+      
+      
+      -->
 
       <!--
         - #Publication
