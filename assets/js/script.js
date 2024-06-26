@@ -46,7 +46,6 @@ for (let i = 0; i < testimonialsItem.length; i++) {
 
 }
 
-
 if (modalCloseBtn) {
   modalCloseBtn.addEventListener("click", testimonialsModalFunc);
 }
@@ -215,3 +214,7 @@ window.onclick = function(event) {
     }
   }
 }
+
+
+
+

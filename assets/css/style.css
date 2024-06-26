@@ -433,9 +433,9 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 15px;
+  gap: 25px;
   padding-bottom: 4px;
-  padding-left: 7px;
+  padding-left: 0px;
 }
 
 .social-container {
@@ -449,16 +449,26 @@ main {
 
 .contact-container {
   display: flex;
-  list-style: none; /* Removes bullet points from <li> */
-  gap: 11px; /* Adjusts spacing between logos */
-  padding-top: 5px;
-  padding-left: 0px;
-  margin: 0;
+  flex-direction: column; /* Change to column if needed */
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Adjust width as needed */
+  max-width: 1000px; /* Set a max-width if necessary */
+  margin: auto;
+  padding: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px; /* Adjust margin as needed */
 }
 
 .social-item .social-link {
   color: var(--light-gray-70);
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .social-item .social-link:hover { color: var(--light-gray); }
@@ -565,6 +575,9 @@ main {
   line-height: 1.6;
 }
 
+/**
+ * #Contact 
+ */
 .contact-text {
   color: white;
   display: block;
@@ -712,35 +725,69 @@ main {
   opacity: 1;
 }
 
-
 .modal-close-btn {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 20px;
+  right: 20px;
   background: var(--onyx);
   border-radius: 8px;
-  width: 32px;
-  height: 32px;
+  width: 50px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--white-2);
-  font-size: 18px;
+  font-size: 25px;
   opacity: 0.7;
+  padding: 10px; /* Increase padding to make the clickable area larger */
+  margin: -10px; /* Use negative margin to keep the button size consistent */
+  cursor: pointer; /* Add cursor pointer for better UX */
+}
+
+.modal-close-btn ion-icon {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  --ionicon-stroke-width: 50px;
 }
 
 .modal-close-btn:hover,
-.modal-close-btn:focus { opacity: 1; }
+.modal-close-btn:focus {
+  opacity: 1;
+}
 
-.modal-close-btn ion-icon { --ionicon-stroke-width: 50px; }
+
+
 
 .modal-content img {
   display: block;
   margin: 0 auto;
-  width: 50%;
-  max-width: 50%;
+  width: 100%;
+  max-width: 100%;
   height: auto;
 }
+
+.research-text {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.research-text li {
+  position: relative;
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
+.journal-text li::before {
+  content: "3.";
+  position: absolute;
+  left: 0;
+}
+
+
 
 
 /*-----------------------------------*\
@@ -946,12 +993,20 @@ main {
 
 .project-img {
   position: relative;
-  width: 100%;
-  height: 200px;
+  width: 250px;
+  height: 180px;
   border-radius: 16px;
   overflow: hidden;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
+
+.project-img img {
+  width: 250px;
+  height: 180px;
+  object-fit: contain;
+  transition: var(--transition-1);
+}
+
 
 .project-img::before {
   content: "";
@@ -991,12 +1046,6 @@ main {
 
 .project-item-icon-box ion-icon { --ionicon-stroke-width: 50px; }
 
-.project-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: var(--transition-1);
-}
 
 .project-item > a:hover img { transform: scale(1.1); }
 
@@ -1007,7 +1056,6 @@ main {
   color: var(--white-2);
   font-size: var(--fs-5);
   font-weight: var(--fw-400);
-  text-transform: capitalize;
   line-height: 1.3;
 }
 
@@ -1290,6 +1338,8 @@ textarea.form-input::-webkit-resizer { display: none; }
     padding-bottom: 15px;
   }
 
+
+
   .article-title::after {
     width: 40px;
     height: 5px;
@@ -1492,7 +1542,7 @@ textarea.form-input::-webkit-resizer { display: none; }
  */
 
 @media (min-width: 768px) {
-
+  
   /**
    * REUSED STYLE
    */
@@ -1804,10 +1854,5 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
-  /**
-	 * RESUME
-	 */
-
-  .timeline-text { max-width: 700px; }
 
 }
