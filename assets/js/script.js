@@ -166,54 +166,97 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 // Modal for project items
 
-// Function to open a modal
-function openModal(modalId) {
-  var modal = document.getElementById(modalId);
-  modal.classList.add("active");
-  document.querySelector(".overlay").classList.add("active");
-}
-
-// Function to close a modal
-function closeModal(modalId) {
-  var modal = document.getElementById(modalId);
-  modal.classList.remove("active");
-  document.querySelector(".overlay").classList.remove("active");
-}
-
-// Get all links that open modals
-var modalLinks = document.querySelectorAll(".openModal");
-
-// Attach click event listeners to open modals
-modalLinks.forEach(function(link) {
-  link.addEventListener("click", function(event) {
-    event.preventDefault();
-    var modalId = this.getAttribute("data-modal-target");
-    openModal(modalId);
-  });
-});
-
-// Get all close buttons
-var closeButtons = document.querySelectorAll(".modal-close-btn");
-
-// Attach click event listeners to close modals
-closeButtons.forEach(function(button) {
-  button.addEventListener("click", function() {
-    var modalId = this.getAttribute("data-close-modal");
-    closeModal(modalId);
-  });
-});
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  var overlay = document.querySelector(".overlay.active");
-  if (overlay && event.target === overlay) {
-    var activeModal = document.querySelector(".modal-container.active");
-    if (activeModal) {
-      activeModal.classList.remove("active");
-      overlay.classList.remove("active");
-    }
+document.addEventListener('DOMContentLoaded', function () {
+  function closeModal(modalId) {
+    var modal = document.getElementById(modalId);
+    var overlay = document.querySelector(`.overlay[data-overlay-for="${modalId}"]`);
+    modal.classList.remove("active");
+    overlay.classList.remove("active");
   }
-}
+
+  function openModal(modalId) {
+    var modal = document.getElementById(modalId);
+    var overlay = document.querySelector(`.overlay[data-overlay-for="${modalId}"]`);
+    modal.classList.add("active");
+    overlay.classList.add("active");
+  }
+
+  // Get all links that open modals
+  var modalLinks = document.querySelectorAll(".openModal");
+
+  // Attach click event listeners to open modals
+  modalLinks.forEach(function (link) {
+    link.addEventListener("click", function (event) {
+      event.preventDefault();
+      var modalId = this.getAttribute("data-modal-target");
+      openModal(modalId);
+    });
+  });
+
+  // Get all close buttons
+  var closeButtons = document.querySelectorAll(".modal-close-btn");
+
+  // Attach click event listeners to close modals
+  closeButtons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      var modalId = this.getAttribute("data-close-modal");
+      closeModal(modalId);
+    });
+  });
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.addEventListener("click", function (event) {
+    var overlays = document.querySelectorAll(".overlay.active");
+    overlays.forEach(function (overlay) {
+      if (event.target === overlay) {
+        var modalId = overlay.getAttribute("data-overlay-for");
+        closeModal(modalId);
+      }
+    });
+  });
+});
+
+// // Function to open a modal
+// function closeModal(modalId) {
+//   var modal = document.getElementById(modalId);
+//   modal.classList.remove("active");
+//   document.querySelector(".overlay").classList.remove("active");
+// }
+
+// // Get all links that open modals
+// var modalLinks = document.querySelectorAll(".openModal");
+
+// // Attach click event listeners to open modals
+// modalLinks.forEach(function(link) {
+//   link.addEventListener("click", function(event) {
+//     event.preventDefault();
+//     var modalId = this.getAttribute("data-modal-target");
+//     openModal(modalId);
+//   });
+// });
+
+// // Get all close buttons
+// var closeButtons = document.querySelectorAll(".modal-close-btn");
+
+// // Attach click event listeners to close modals
+// closeButtons.forEach(function(button) {
+//   button.addEventListener("click", function() {
+//     var modalId = this.getAttribute("data-close-modal");
+//     closeModal(modalId);
+//   });
+// });
+
+// // When the user clicks anywhere outside of the modal, close it
+// window.onclick = function(event) {
+//   var overlay = document.querySelector(".overlay.active");
+//   if (overlay && event.target === overlay) {
+//     var activeModal = document.querySelector(".modal-container.active");
+//     if (activeModal) {
+//       activeModal.classList.remove("active");
+//       overlay.classList.remove("active");
+//     }
+//   }
+// }
 
 
 

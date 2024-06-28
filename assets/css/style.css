@@ -542,9 +542,13 @@ main {
 .journal-text {
   color: white; 
   display: block;
-  font-size: 200;
-  font-weight: bold;
-  margin-bottom: 10px; 
+  padding-left: 20px; 
+  text-indent: -24px; /* Hanging */
+  margin-bottom: 10px;
+  margin-right: 20px;
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
 }
 
 .conference-text {
@@ -700,7 +704,7 @@ main {
   transition: 0.5s ease;
   z-index: 2;
   width: 100%;
-  max-width: 1200px;
+  max-width: 900px;
   height: 100%;
   max-height: 100%;
   overflow-y: auto;
@@ -731,17 +735,17 @@ main {
   right: 20px;
   background: var(--onyx);
   border-radius: 8px;
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--white-2);
   font-size: 25px;
   opacity: 0.7;
-  padding: 10px; /* Increase padding to make the clickable area larger */
-  margin: -10px; /* Use negative margin to keep the button size consistent */
-  cursor: pointer; /* Add cursor pointer for better UX */
+  padding: 10px; 
+  margin: -10px; 
+  cursor: pointer;
 }
 
 .modal-close-btn ion-icon {
