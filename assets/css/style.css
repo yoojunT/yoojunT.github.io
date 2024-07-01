@@ -550,6 +550,23 @@ main {
   line-height: 1.6;
 }
 
+.abstract-text {
+  color: white; 
+  display: block;
+  padding-left: 20px; 
+  margin-bottom: 10px;
+  margin-right: 20px;
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+.abstract-title {
+  color: hsl(45, 100%, 72%);
+  font-weight: bold;
+  font-size: 18px; 
+}
+
 .conference-text {
   color: white; 
   display: block;
@@ -705,7 +722,7 @@ main {
   width: 100%;
   max-width: 900px;
   height: 100%;
-  max-height: 100%;
+  max-height: 1100px;
   overflow-y: auto;
 }
 
@@ -1738,8 +1755,50 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
+/* ** carousel** */
 
+.carousel-container {
+  position: relative;
+  width: 800px; 
+  height: 600px; 
+  margin: auto;
+  overflow: hidden;
+  background: var(--eerie-black-2);
+}
 
+.carousel-image {
+  width: 100%;
+  height: auto; 
+  display: none;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 35%; 
+  width: auto;
+  padding: 14px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;  
+  border: none;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+  user-select: none;
+  transform: translateY(-50%); 
+}
+
+.prev {
+  left: 5px; 
+}
+
+.next {
+  right: 5px; 
+}
+
+.carousel-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
 
 
 /**
