@@ -218,22 +218,46 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 // carousel
-let currentSlide = 0;
-const slides = document.querySelectorAll('.carousel-image');
+// Function to initialize a carousel
+function initializeCarousel(containerSelector) {
+  const container = document.querySelector(containerSelector);
+  if (!container) return;
 
-function showSlide(index) {
-  slides[currentSlide].style.display = 'none';
-  currentSlide = (index + slides.length) % slides.length;
-  slides[currentSlide].style.display = 'block';
+  const slides = container.querySelectorAll('.carousel-image');
+  let currentSlide = 0;
+
+  // Function to show a specific slide
+  function showSlide(index) {
+    slides[currentSlide].style.display = 'none'; // Hide current slide
+    currentSlide = (index + slides.length) % slides.length; // Calculate new index
+    slides[currentSlide].style.display = 'block'; // Show new slide
+  }
+
+  // Function to move to the next or previous slide
+  function moveSlide(direction) {
+    showSlide(currentSlide + direction);
+  }
+
+  // Initialize the carousel to show the first image
+  slides.forEach(slide => {
+    slide.style.display = 'none'; // Hide all slides initially
+  });
+  showSlide(currentSlide); // Show the first slide
+
+  // Add event listeners for navigation buttons
+  const nextButton = container.querySelector('.next');
+  const prevButton = container.querySelector('.prev');
+
+  if (nextButton) {
+    nextButton.addEventListener('click', () => moveSlide(1));
+  }
+  if (prevButton) {
+    prevButton.addEventListener('click', () => moveSlide(-1));
+  }
 }
 
-function moveSlide(direction) {
-  showSlide(currentSlide + direction);
-}
-
-// Initialize the carousel to show the first image
-showSlide(currentSlide);
-
-
-
-
+// Initialize all carousels on DOMContentLoaded
+document.addEventListener('DOMContentLoaded', () => {
+  initializeCarousel('.carousel-container');
+  initializeCarousel('.carousel-container2');
+});
