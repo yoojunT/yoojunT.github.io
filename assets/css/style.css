@@ -805,9 +805,6 @@ main {
 }
 
 
-/*-----------------------------------*\
-  #RESUME
-\*-----------------------------------*/
 
 .article-title { margin-bottom: 30px; }
 
@@ -1757,7 +1754,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 .carousel-container {
   position: relative;
   width: 800px;
-  height: 600px;
+  height: 500px;
   margin: auto;
   overflow: hidden;
   background: var(--eerie-black-2);
