@@ -672,19 +672,20 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  display: flex;
+  display: none; /* Ensure it's hidden by default */
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  overscroll-behavior: contain;
-  z-index: 20;
-  pointer-events: none;
+  z-index: 1000;
   visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
 .modal-container.active {
-  pointer-events: all;
+  display: flex; /* Ensure it's displayed as a flexbox */
   visibility: visible;
+  opacity: 1;
 }
 
 .overlay {
@@ -692,20 +693,18 @@ main {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
-  background: hsl(0, 0%, 5%);
-  opacity: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
   visibility: hidden;
-  pointer-events: none;
-  z-index: 1;
-  transition: 0.5s ease;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
 .overlay.active {
-  opacity: 0.8;
   visibility: visible;
-  pointer-events: all;
+  opacity: 1;
 }
+
 
 .research-modal {
   background: var(--eerie-black-2);

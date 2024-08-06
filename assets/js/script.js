@@ -166,55 +166,57 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 // Modal for project items
 
-document.addEventListener('DOMContentLoaded', function () {
-  function closeModal(modalId) {
-    var modal = document.getElementById(modalId);
-    var overlay = document.querySelector(`.overlay[data-overlay-for="${modalId}"]`);
-    modal.classList.remove("active");
-    overlay.classList.remove("active");
-  }
+document.addEventListener('DOMContentLoaded', () => {
+  console.log("DOM fully loaded and parsed");
 
-  function openModal(modalId) {
-    var modal = document.getElementById(modalId);
-    var overlay = document.querySelector(`.overlay[data-overlay-for="${modalId}"]`);
-    modal.classList.add("active");
-    overlay.classList.add("active");
-  }
+  const closeModal = (modalId) => {
+    const modal = document.getElementById(modalId);
+    const overlay = document.querySelector(`.overlay[data-overlay-for="${modalId}"]`);
+    if (modal && overlay) {
+      modal.classList.remove("active");
+      overlay.classList.remove("active");
+    }
+  };
 
-  // Get all links that open modals
-  var modalLinks = document.querySelectorAll(".openModal");
+  const openModal = (modalId) => {
+    const modal = document.getElementById(modalId);
+    const overlay = document.querySelector(`.overlay[data-overlay-for="${modalId}"]`);
 
-  // Attach click event listeners to open modals
-  modalLinks.forEach(function (link) {
-    link.addEventListener("click", function (event) {
-      event.preventDefault();
-      var modalId = this.getAttribute("data-modal-target");
+    if (modal && overlay) {
+      modal.classList.add("active");
+      overlay.classList.add("active");
+    } else {
+      console.log('Modal or overlay not found');
+    }
+  };
+
+  document.querySelectorAll(".openModal").forEach(link => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();  // This is crucial to stop the link from navigating to "#"
+      const modalId = link.getAttribute("data-modal-target");
       openModal(modalId);
     });
   });
 
-  // Get all close buttons
-  var closeButtons = document.querySelectorAll(".modal-close-btn");
-
-  // Attach click event listeners to close modals
-  closeButtons.forEach(function (button) {
-    button.addEventListener("click", function () {
-      var modalId = this.getAttribute("data-close-modal");
+  document.querySelectorAll(".modal-close-btn").forEach(button => {
+    button.addEventListener("click", () => {
+      const modalId = button.getAttribute("data-close-modal");
       closeModal(modalId);
     });
   });
 
-  // When the user clicks anywhere outside of the modal, close it
-  window.addEventListener("click", function (event) {
-    var overlays = document.querySelectorAll(".overlay.active");
-    overlays.forEach(function (overlay) {
+  window.addEventListener("click", (event) => {
+    document.querySelectorAll(".overlay.active").forEach(overlay => {
       if (event.target === overlay) {
-        var modalId = overlay.getAttribute("data-overlay-for");
+        const modalId = overlay.getAttribute("data-overlay-for");
         closeModal(modalId);
       }
     });
   });
 });
+
+
+
 
 
 // carousel
