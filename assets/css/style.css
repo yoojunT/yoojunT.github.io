@@ -816,9 +816,10 @@ when more than 200%
 .timeline { margin-bottom: 40px; }
 
 .timeline .title-wrapper {
+  margin-left: 10px;
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
   margin-bottom: 15px;
 }
 
@@ -833,7 +834,7 @@ when more than 200%
 
 .timeline-item-title {
   font-size: var(--fs-6);
-  line-height: 1.3;
+  line-height: 1;
   margin-top: 7px;
   margin-bottom: 7px;
 }
@@ -879,7 +880,6 @@ when more than 200%
   padding-left: 16px;
   text-indent: -12px;
 }
-
 
 
 /*-----------------------------------*\
@@ -997,7 +997,6 @@ when more than 200%
 
 .project-item-icon-box {
   --scale: 0.8;
-
   background: var(--jet);
   color: var(--orange-yellow-crayola);
   position: absolute;
@@ -1533,12 +1532,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .icon-box {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333; /* Adjust for your theme */
+    background-color: #333; 
     border-radius: 50%;
   }
 
