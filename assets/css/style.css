@@ -1259,11 +1259,11 @@ textarea.form-input::-webkit-resizer { display: none; }
   .title-container {
     display: flex;
     align-items: center;
-    gap: 10px; /* Adjusts spacing between text and icon */
+    gap: 0px; /* Adjusts spacing between text and icon */
   }
 
   .info-content .name {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   .info-content .title {
@@ -1772,7 +1772,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 25px;
+    gap: 50px;
   }
 
   .main-content {
@@ -1789,21 +1789,25 @@ textarea.form-input::-webkit-resizer { display: none; }
     position: sticky;
     top: 30px;
     max-height: max-content;
-    height: 100%;
     width: 100%;
-    margin-bottom: 50px;
     padding-top: 50px;
     z-index: 1;
   }
 
-  .sidebar-info { flex-direction: column; }
+  .sidebar-info {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start; /* Keep items aligned to the start */
+    align-items: center; 
+    gap: 15px; /* Reduced gap between image and text proportionally */
+  }
 
   .avatar-box {
     display: flex;
     justify-content: center; /* Horizontally centers image */
     align-items: center; /* Vertically centers image */
-    width: 150px; /* Set a fixed width */
-    height: 150px; /* Set a fixed height */
+    width: 140px; /* Set a fixed width */
+    height: 140px; /* Set a fixed height */
     border-radius: 50%; /* Makes it circular */
     overflow: hidden; /* Ensures the image stays within the circle */
     border: 3px solid white; /* Optional border */
