@@ -1225,7 +1225,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-bottom: 30px;
   }
 
-  .sidebar.active { max-height: 584px; }
+  .sidebar.active { max-height: 220px; }
   
   /**
    * #90% ~ 125%
@@ -1787,7 +1787,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .sidebar {
     position: sticky;
     top: 30px;
-    max-height: max-content;
+    max-height: 410pt;
     width: 100%;
     padding-top: 50px;
     z-index: 1;
