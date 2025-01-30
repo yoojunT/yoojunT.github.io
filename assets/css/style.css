@@ -438,7 +438,7 @@ when more than 200%
   justify-content: flex-start;
   align-items: center;
   gap: 25px;
-  padding-bottom: 4px;
+  padding-bottom: 15px;
   padding-left: 0px;
 }
 
@@ -1791,7 +1791,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     max-height: max-content;
     height: 100%;
     width: 100%;
-    margin-bottom: 0;
+    margin-bottom: 50px;
     padding-top: 50px;
     z-index: 1;
   }
@@ -1806,7 +1806,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     height: 150px; /* Set a fixed height */
     border-radius: 50%; /* Makes it circular */
     overflow: hidden; /* Ensures the image stays within the circle */
-    background-color: var(--onyx); /* Optional background color */
     border: 3px solid white; /* Optional border */
   }
 
