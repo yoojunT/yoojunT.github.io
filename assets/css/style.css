@@ -428,7 +428,7 @@ when more than 200%
 
 .contact-info :is(.contact-link, time, address) {
   color: var(--white-2);
-  font-size: var(--fs-7);
+  font-size: 10pt;
 }
 
 .contact-info address { font-style: normal; }
