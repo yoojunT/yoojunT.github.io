@@ -846,19 +846,19 @@ when more than 200%
   line-height: 1.4 ;
 }
 
-.timeline-text3 {
-  color: var(--light-gray);
-  font-weight: var(--fw-300);
-  line-height: 1.4 ;
-  margin-bottom: 30px;
-}
-
 .timeline-text2 {
   color: var(--light-gray);
   font-weight: var(--fw-300);
   line-height: 1.6;
   padding-left: 16px;
   text-indent: -12px;
+}
+
+.timeline-text3 {
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.4 ;
+  margin-bottom: 30px;
 }
 
 /**
