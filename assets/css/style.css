@@ -819,7 +819,7 @@ when more than 200%
   margin-left: 10px;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
   margin-bottom: 15px;
 }
 
@@ -892,7 +892,7 @@ when more than 200%
   margin-left: 10px;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
   margin-bottom: 15px;
 }
 
@@ -901,7 +901,7 @@ when more than 200%
   width: 95%; 
   max-width: 1000px;
   height: auto;
-  max-height: 200px;
+  max-height: 200px;  
   margin: auto;
   overflow-y: auto; 
   background: var(--eerie-black-2); 
