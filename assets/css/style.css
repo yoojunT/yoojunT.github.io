@@ -846,6 +846,13 @@ when more than 200%
   line-height: 1.4 ;
 }
 
+.timeline-text3 {
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.4 ;
+  margin-bottom: 15px;
+}
+
 .timeline-text2 {
   color: var(--light-gray);
   font-weight: var(--fw-300);
