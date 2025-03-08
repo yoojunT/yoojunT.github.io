@@ -785,7 +785,8 @@ when more than 200%
  * education and experience 
  */
 
-.timeline { margin-bottom: 45px; }
+.timeline { margin-top: 40px; }
+.news-section { margin-top: 40px; }
 
 .timeline .title-wrapper {
   margin-left: 10px;
@@ -856,9 +857,6 @@ when more than 200%
 /**
  * NEWS
  */
- .news-section {
-  margin-bottom: 50px;
-}
 
 .news-section .title-wrapper {
   margin-left: 10px;
@@ -1292,7 +1290,7 @@ when more than 200%
 
   .about .article-title { margin-bottom: 20px; }
 
-  .about-text { margin-bottom: 40px; }
+  .about-text { margin-bottom: 0px; }
 
   /**
    * #RESUME
