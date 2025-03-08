@@ -813,7 +813,7 @@ when more than 200%
  * education and experience 
  */
 
-.timeline { margin-bottom: 40px; }
+.timeline { margin-bottom: 20px; }
 
 .timeline .title-wrapper {
   margin-left: 10px;
@@ -1379,36 +1379,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .about .article-title { margin-bottom: 20px; }
 
   .about-text { margin-bottom: 40px; }
-
-  /* service */
-
-  .service-item {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 18px;
-    padding: 30px;
-  }
-
-  .service-icon-box {
-    margin-bottom: 0;
-    margin-top: 5px;
-  }
-
-  .service-content-box { text-align: left; }
-
-  /* clients */
-
-  .clients-list {
-    gap: 50px;
-    margin: 0 -30px;
-    padding: 45px;
-    scroll-padding-inline: 45px;
-  }
-
-  .clients-item { min-width: calc(33.33% - 35px); }
-
-
 
   /**
    * #RESUME
