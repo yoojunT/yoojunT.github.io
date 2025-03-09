@@ -785,7 +785,7 @@ when more than 200%
  * education and experience 
  */
 
-.timeline { margin-top: 40px; }
+.timeline { margin-top: 45px; }
 .news-section { margin-top: 40px; }
 
 .timeline .title-wrapper {
@@ -793,7 +793,7 @@ when more than 200%
   display: flex;
   align-items: center;
   gap: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
 }
 
 .timeline-list {
@@ -874,7 +874,7 @@ when more than 200%
   display: flex;
   align-items: center;
   gap: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
 }
 
 .news-container {
