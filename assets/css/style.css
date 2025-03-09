@@ -843,20 +843,24 @@ when more than 200%
 .timeline-text {
   color: var(--light-gray);
   font-weight: var(--fw-300);
+  font-size: var(--fs-6);
   line-height: 1.4 ;
 }
 
 .timeline-text2 {
   color: var(--light-gray);
   font-weight: var(--fw-300);
+  font-size: var(--fs-6);
   line-height: 1.6;
   padding-left: 16px;
+  margin-bottom: 4px;
   text-indent: -12px;
 }
 
 .timeline-text3 {
   color: var(--light-gray);
   font-weight: var(--fw-300);
+  font-size: var(--fs-6);
   line-height: 1.4 ;
   margin-bottom: 30px;
 }
@@ -885,9 +889,9 @@ when more than 200%
   padding: 5px;
   border-radius: 8px;
   border: 1.5px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 50px;
   
 }
-
 
 /* Adjusting the list to fit within the container */
 .news-list {
