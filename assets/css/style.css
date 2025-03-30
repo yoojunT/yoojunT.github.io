@@ -1754,7 +1754,7 @@ when more than 200%
   .sidebar {
     position: sticky;
     top: 30px;
-    max-height: 410pt;
+    max-height: 400pt;
     width: 100%;
     padding-top: 50px;
     z-index: 1;
