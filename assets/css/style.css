@@ -109,6 +109,10 @@
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease-in-out;
 
+  .fa-solid, .fa-brands {
+    font-size: 0.8em;
+  }
+
 }
 
 
