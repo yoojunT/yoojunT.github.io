@@ -591,6 +591,10 @@ when more than 200%
   line-height: 1.6;
 }
 
+.publication-text strong {
+  font-weight: 700; /* or bold */
+}
+
 /**
  * #service 
  */
