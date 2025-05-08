@@ -1136,6 +1136,17 @@ when more than 200%
   margin-bottom: 5px;
 }
 
+.contact-text1{
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  display: block;
+  font-size: 15;
+  line-height: 1.5;
+  margin-left: 5px;
+  margin-top: -15px;
+  margin-bottom: 5px;
+}
+
 .contact-text2{
   color: var(--light-gray);
   font-size: var(--fs-6);
@@ -1143,6 +1154,7 @@ when more than 200%
   font-size: 15;
   line-height: 1.5;
   margin-left: 5px;
+  margin-top: 10px;
   margin-bottom: 23px;
 }
 
