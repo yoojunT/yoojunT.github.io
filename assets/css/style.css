@@ -515,10 +515,11 @@ when more than 200%
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
-  padding-left: 13pt;
+  padding-left: 14pt;
   line-height: 1.6;
-  padding-right: 20pt;
+  padding-right: 14pt;
   /* text-align: justify; */
+  /* letter-spacing: -0.1px; */
 }
 
 .about-text p { margin-bottom: 15px; }
