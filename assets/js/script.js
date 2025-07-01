@@ -143,7 +143,7 @@ for (let i = 0; i < formInputs.length; i++) {
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
 
-// add event to all nav link
+// add event to all nav link [With Research]
 for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
     console.log("Nav link clicked:", this.innerHTML);  // Check which link is clicked
@@ -163,6 +163,24 @@ for (let i = 0; i < navigationLinks.length; i++) {
     }
   });
 }
+
+// // // add event to all nav link [Without Research]
+// for (let i = 0; i < navigationLinks.length; i++) {
+//   navigationLinks[i].addEventListener("click", function () {
+//     const targetPage = this.textContent.trim().toLowerCase();
+
+//     pages.forEach(page => {
+//       page.classList.toggle("active", page.dataset.page === targetPage);
+//     });
+
+//     navigationLinks.forEach(link => {
+//       link.classList.toggle("active", link === this);
+//     });
+
+//     window.scrollTo(0, 0);
+//   });
+// }
+
 
 // Modal for project items
 

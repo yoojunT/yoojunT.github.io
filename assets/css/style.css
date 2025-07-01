@@ -172,6 +172,11 @@ body { background: var(--smoky-black); }
   z-index: 1;
 }
 
+article {
+  min-height: calc(100vh - 160px);  /* subtracting navbar/sidebar height */
+}
+
+
 .separator {
   width: 100%;
   height: 1px;
