@@ -300,9 +300,6 @@ article.active {
 }
 
 
-
-
-
 /*-----------------------------------*\
   #MAIN
 \*-----------------------------------*/
@@ -312,6 +309,8 @@ main {
   margin-bottom: 75px;
   min-width: 259px;
 }
+
+
 
 /*-----------------------------------*\
   #SIDEBAR
@@ -1829,4 +1828,69 @@ Disable scroll on short or portrait screens */
     height: auto !important;
   }
 
+}
+
+
+/*-----------------------------------*\
+  #Theme
+\*-----------------------------------*/
+
+/* ============ Theme Toggle Button ============ */
+.theme-toggle {
+  position: fixed;
+  top: 12px;
+  right: 16px;
+  z-index: 9999;
+  /* bigger hit target for touch */
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+
+  /* dark-mode default look */
+  background: hsla(240, 1%, 17%, 0.85);
+  backdrop-filter: blur(8px);
+  color: var(--light-gray);
+
+  box-shadow: var(--shadow-2);
+  transition:
+    transform .18s ease,
+    color .18s ease,
+    background .18s ease,
+    box-shadow .18s ease;
+}
+
+.theme-toggle:hover {
+  transform: translateY(-1px);
+  color: var(--orange-yellow-crayola);
+  box-shadow: var(--shadow-3);
+}
+
+.theme-toggle:active {
+  transform: translateY(0);
+}
+
+.theme-toggle:focus-visible {
+  outline: 3px solid var(--orange-yellow-crayola);
+  outline-offset: 2px;
+}
+
+/* Keep it clear of the desktop navbar */
+@media (min-width: 1024px) {
+  .theme-toggle { top: 14px; right: 22px; }
+}
+
+/* Lighter toggle styling when light mode is on */
+body.light-mode .theme-toggle {
+  background: rgba(0, 0, 0, 0.06);
+  color: #333;
+  backdrop-filter: saturate(120%) blur(6px);
+}
+
+/* Reduced motion users */
+@media (prefers-reduced-motion: reduce) {
+  .theme-toggle { transition: none; }
 }
