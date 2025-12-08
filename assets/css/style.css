@@ -880,7 +880,7 @@ when more than 200%
 /* Default scroll only for very tall screens */
 @media screen {
   .news-container {
-    max-height: 210px;
+    max-height: 270px;
     overflow-y: auto;
   }
 }
@@ -889,7 +889,7 @@ when more than 200%
 Disable scroll on short or portrait screens */
 @media screen and (orientation: portrait) {
   .news-container {
-    max-height: 210px;
+    max-height: 270px;
     overflow-y: auto;
   }
 }
