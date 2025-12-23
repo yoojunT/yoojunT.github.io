@@ -742,6 +742,35 @@ when more than 200%
   text-indent: -2em;
 }
 
+/* Research header spacing */
+.research .article-header {
+  margin-bottom: 10px;
+}
+
+/* Motto style (subheading) */
+.research .research-motto {
+  margin: -10px 0 18px 4px;
+  color: white;
+  opacity: 0.9;
+  font-size: 1rem;
+  line-height: 1.2;
+  font-style: italic;
+}
+
+.research .projects {
+  margin-top: 6px;
+}
+
+@media (max-width: 580px) {
+  .research .article-header {
+    margin-bottom: 14px;
+  }
+  .research .research-motto {
+    font-size: 0.9rem;
+  }
+}
+
+
 .journal-text li::before {
   content: "3.";
   position: absolute;
