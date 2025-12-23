@@ -750,13 +750,10 @@ when more than 200%
 /* Motto style (subheading) */
 .research .research-motto {
   margin: -14px 0 14px 2px;
-  color: white;
+  /* color: white; */
+  color: var(--orange-yellow-crayola);
   font-size: 1rem;
   font-style: italic;
-}
-
-.research .projects {
-  margin-top: 6px;
 }
 
 @media (max-width: 580px) {
@@ -967,7 +964,7 @@ Disable scroll on short or portrait screens */
 
 .filter-select-box {
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .filter-select {
