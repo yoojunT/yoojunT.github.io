@@ -749,11 +749,9 @@ when more than 200%
 
 /* Motto style (subheading) */
 .research .research-motto {
-  margin: -10px 0 18px 4px;
+  margin: -14px 0 14px 2px;
   color: white;
-  opacity: 0.9;
   font-size: 1rem;
-  line-height: 1.2;
   font-style: italic;
 }
 
@@ -770,13 +768,11 @@ when more than 200%
   }
 }
 
-
 .journal-text li::before {
   content: "3.";
   position: absolute;
   left: 0;
 }
-
 
 
 .article-title { margin-bottom: 30px; }
