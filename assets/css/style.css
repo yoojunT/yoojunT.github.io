@@ -749,11 +749,18 @@ when more than 200%
 
 /* Motto style (subheading) */
 .research .research-motto {
-  margin: -14px 0 14px 2px;
-  /* color: white; */
-  color: var(--orange-yellow-crayola);
+  margin: 0 0 5px 0;
+  display: inline-flex;
+  color: #f5c26b; 
+  align-items: center;
   font-size: 1rem;
   font-style: italic;
+}
+
+.research-motto .emoji {
+  font-size: 0.95em;
+  opacity: 0.8;
+  margin-right: 3px;
 }
 
 @media (max-width: 580px) {
