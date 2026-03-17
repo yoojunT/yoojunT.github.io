@@ -56,13 +56,11 @@ if (overlay) {
 // custom select variables
 const select = document.querySelector("[data-select]");
 const selectItems = document.querySelectorAll("[data-select-item]");
-const selectValue = document.querySelector("[data-selecct-value]");
+const selectValue = document.querySelector("[data-select-value]");
 const filterBtn = document.querySelectorAll("[data-filter-btn]");
 
 if (select) {
   select.addEventListener("click", function () { elementToggleFunc(this); });
-} else {
-  // console.error("Select element not found");
 }
 
 // add event in all select items
@@ -143,19 +141,14 @@ for (let i = 0; i < formInputs.length; i++) {
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
 
-// add event to all nav link [With Research]
+// add event to all nav link
 for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
-    console.log("Nav link clicked:", this.innerHTML);  // Check which link is clicked
-
     for (let j = 0; j < pages.length; j++) {
-      console.log("Comparing to page:", pages[j].dataset.page);  // Log comparison values
-
       if (this.innerHTML.toLowerCase() === pages[j].dataset.page.toLowerCase()) {
         pages[j].classList.add("active");
         navigationLinks[j].classList.add("active");
         window.scrollTo(0, 0);
-        console.log("Match found and activated:", pages[j].dataset.page);
       } else {
         pages[j].classList.remove("active");
         navigationLinks[j].classList.remove("active");
@@ -164,28 +157,10 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 
-// // // add event to all nav link [Without Research]
-// for (let i = 0; i < navigationLinks.length; i++) {
-//   navigationLinks[i].addEventListener("click", function () {
-//     const targetPage = this.textContent.trim().toLowerCase();
-
-//     pages.forEach(page => {
-//       page.classList.toggle("active", page.dataset.page === targetPage);
-//     });
-
-//     navigationLinks.forEach(link => {
-//       link.classList.toggle("active", link === this);
-//     });
-
-//     window.scrollTo(0, 0);
-//   });
-// }
-
 
 // Modal for project items
 
 document.addEventListener('DOMContentLoaded', () => {
-  console.log("DOM fully loaded and parsed");
 
   const closeModal = (modalId) => {
     const modal = document.getElementById(modalId);
@@ -193,24 +168,23 @@ document.addEventListener('DOMContentLoaded', () => {
     if (modal && overlay) {
       modal.classList.remove("active");
       overlay.classList.remove("active");
+      history.replaceState(null, '', window.location.pathname);
     }
   };
 
   const openModal = (modalId) => {
     const modal = document.getElementById(modalId);
     const overlay = document.querySelector(`.overlay[data-overlay-for="${modalId}"]`);
-
     if (modal && overlay) {
       modal.classList.add("active");
       overlay.classList.add("active");
-    } else {
-      console.log('Modal or overlay not found');
+      history.replaceState(null, '', '#' + modalId);
     }
   };
 
   document.querySelectorAll(".openModal").forEach(link => {
     link.addEventListener("click", (event) => {
-      event.preventDefault();  // This is crucial to stop the link from navigating to "#"
+      event.preventDefault();
       const modalId = link.getAttribute("data-modal-target");
       openModal(modalId);
     });
@@ -231,6 +205,12 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
+  // Open modal on page load if URL has a matching hash
+  const hash = window.location.hash.slice(1);
+  if (hash && document.getElementById(hash)) {
+    openModal(hash);
+  }
 });
 
 

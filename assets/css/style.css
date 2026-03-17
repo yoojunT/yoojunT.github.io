@@ -343,7 +343,7 @@ when more than 200%
   border-radius: 50%; /* Makes it circular */
   overflow: hidden; /* Ensures the image stays within the circle */
   background-color: var(--onyx); /* Optional background color */
-  border: 3px solid white; /* Optional border */
+  border: 2px solid white; /* Optional border */
 }
 
 
@@ -1124,8 +1124,6 @@ Disable scroll on short or portrait screens */
 \*-----------------------------------*/
 
 .contact {
-  width: 938px;
-  margin: auto;
   padding: 30px;
 }
 
@@ -1283,7 +1281,7 @@ Disable scroll on short or portrait screens */
     border-radius: 50%; /* Makes it circular */
     overflow: hidden; /* Ensures the image stays within the circle */
     background-color: var(--onyx); /* Optional background color */
-    border: 3px solid white; /* Optional border */
+    border: 2px solid white; /* Optional border */
   }
 
   .profile-image {
@@ -1501,7 +1499,7 @@ Disable scroll on short or portrait screens */
     border-radius: 50%; /* Makes it circular */
     overflow: hidden; /* Ensures the image stays within the circle */
     background-color: var(--onyx); /* Optional background color */
-    border: 3px solid white; /* Optional border */
+    border: 2px solid white; /* Optional border */
     transform: translateY(-8px); 
   }
   
@@ -1813,7 +1811,7 @@ Disable scroll on short or portrait screens */
     height: 140px; /* Set a fixed height */
     border-radius: 50%; /* Makes it circular */
     overflow: hidden; /* Ensures the image stays within the circle */
-    border: 3px solid white; /* Optional border */
+    border: 2px solid white; /* Optional border */
   }
 
   .info-content .name {
@@ -1923,3 +1921,244 @@ body.light-mode .theme-toggle {
 @media (prefers-reduced-motion: reduce) {
   .theme-toggle { transition: none; }
 }
+
+
+/*-----------------------------------*\
+  #THEME TOGGLE BUTTON (navbar)
+\*-----------------------------------*/
+
+.theme-toggle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light-gray);
+  font-size: 16px;
+  padding: 20px 7px;
+  transition: color var(--transition-1);
+}
+
+.theme-toggle-btn:hover,
+.theme-toggle-btn:focus { color: var(--orange-yellow-crayola); }
+
+
+/*-----------------------------------*\
+  #LIGHT THEME
+    Page bg   hsl(0,0%,96%)   very light gray
+    Panels    #ffffff          pure white
+    Borders   hsl(0,0%,88%)   barely-visible light gray
+    All text  hsl(0,0%,8%)    near-black  (NO gray text)
+    Icons     hsl(0,0%,8%)    black
+    Bullets   hsl(0,0%,8%)    black
+    Links     hsl(207,72%,40%) steel blue (matches reference image)
+\*-----------------------------------*/
+
+body.light-theme {
+
+  /* Icons/bullets/accents → black */
+  --orange-yellow-crayola: hsl(0, 0%, 8%);
+  --vegas-gold:            hsl(0, 0%, 8%);
+  --bittersweet-shimmer:   hsl(0, 0%, 8%);
+  --text-gradient-yellow:  linear-gradient(to right, hsl(0,0%,8%), hsl(0,0%,12%));
+
+  /* Backgrounds */
+  --smoky-black:    hsl(0, 0%, 100%);   /* page bg  — white */
+  background:       hsl(0, 0%, 100%);
+  --eerie-black-2:  hsl(0, 0%, 97%);   /* panels   — near-white gray      */
+  --eerie-black-1:  hsl(0, 0%, 94%);   /* card fills                      */
+  --onyx:           hsl(0, 0%, 91%);   /* badges                          */
+  --jet:            hsl(0, 0%, 78%);   /* internal separators             */
+
+  /* Text → all near-black, no gray variation */
+  --white-1:        hsl(0, 0%, 8%);
+  --white-2:        hsl(0, 0%, 5%);
+  --light-gray:     hsl(0, 0%, 8%);
+  --light-gray-70:  hsla(0, 0%, 8%, 0.85);
+
+  /* Gradients */
+  --bg-gradient-onyx:      linear-gradient(to bottom right, hsl(0,0%,95%) 3%, hsl(0,0%,98%) 97%);
+  --bg-gradient-jet:       linear-gradient(to bottom right, hsla(0,0%,93%,0.7) 0%, hsla(0,0%,97%,0) 100%), hsl(0,0%,97%);
+  --bg-gradient-yellow-2:  linear-gradient(135deg, hsla(0,0%,92%,0.5) 0%, hsla(0,0%,97%,0) 60%), hsl(0,0%,97%);
+  --border-gradient-onyx:  linear-gradient(to bottom right, hsl(0,0%,55%) 0%, hsla(0,0%,55%,0) 50%);
+
+  /* Shadows */
+  --shadow-1: -4px  8px 24px hsla(0,0%,0%, 0.06);
+  --shadow-2:  0   16px 30px hsla(0,0%,0%, 0.06);
+  --shadow-3:  0   16px 40px hsla(0,0%,0%, 0.06);
+  --shadow-4:  0   25px 50px hsla(0,0%,0%, 0.04);
+  --shadow-5:  0   24px 80px hsla(0,0%,0%, 0.06);
+}
+
+/* ---- Global: all links → blue ---- */
+body.light-theme a { color: #0000FF; font-weight: bold; }
+
+/* ---- Focus ring → steel blue ---- */
+body.light-theme :focus { outline-color: hsl(207, 72%, 40%); }
+
+/* ---- Navbar ---- */
+body.light-theme .navbar {
+  background: hsla(0, 0%, 94%, 0.97);
+  backdrop-filter: blur(10px);
+  border-color: hsl(0, 0%, 8%);
+}
+
+body.light-theme .navbar-link          { color: hsl(0, 0%, 8%); }
+body.light-theme .navbar-link:hover,
+body.light-theme .navbar-link:focus    { color: hsl(0, 0%, 0%); }
+body.light-theme .navbar-link.active   { color: hsl(0, 0%, 0%); font-weight: 600; }
+body.light-theme .theme-toggle-btn     { color: hsl(0, 0%, 8%); }
+
+/* ---- Sidebar ---- */
+body.light-theme .avatar-box {
+  border-color: hsl(0, 0%, 65%) !important;
+  background-color: hsl(0, 0%, 88%) !important;
+}
+
+body.light-theme .info-content .name { color: hsl(0, 0%, 5%); }
+
+body.light-theme .info-content .title {
+  background: hsl(0, 0%, 88%);
+  color: hsl(0, 0%, 8%);
+}
+
+/* Labels & values → both black */
+body.light-theme .sidbar-contact-title,
+body.light-theme .sidbar-contact-title_first                            { color: hsl(0, 0%, 8%); }
+body.light-theme .sidbar-contact-info :is(.contact-link, time, address){ color: hsl(0, 0%, 8%); }
+
+/* ---- Icon boxes → black icon, light bg ---- */
+body.light-theme .icon-box {
+  color: hsl(0, 0%, 8%);
+  background-color: hsl(0, 0%, 88%) !important;
+}
+body.light-theme .icon-box::before { background: hsl(0, 0%, 90%); }
+
+/* ---- Social links → black, blue on hover ---- */
+body.light-theme .social-item .social-link       { color: hsl(0, 0%, 8%); }
+body.light-theme .social-item .social-link:hover { color: hsl(207, 72%, 40%); }
+
+/* ---- Panel edges → black ---- */
+body.light-theme .sidebar {
+  background: hsl(0, 0%, 94%);
+  border-color: hsl(0, 0%, 8%);
+}
+
+body.light-theme article { border-color: hsl(0, 0%, 8%); }
+
+/* ---- Project cards — visible bg + border ---- */
+body.light-theme .project-item.active {
+  background: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 0%);
+  border-radius: 16px;
+  padding: 12px;
+}
+
+body.light-theme #project-dt-env .project-img {
+  background: hsl(0, 0%, 20%);
+}
+
+/* ---- Separator — stays light inside panels ---- */
+body.light-theme .separator { background: hsl(0, 0%, 80%); }
+
+/* ---- Body / article text → black ---- */
+body.light-theme .about-text { color: hsl(0, 0%, 8%); }
+
+/* ---- Text classes hardcoded to white → black ---- */
+body.light-theme .journal-text,
+body.light-theme .abstract-text,
+body.light-theme .conference-text_first,
+body.light-theme .conference-text,
+body.light-theme .publication-list,
+body.light-theme .publication-text,
+body.light-theme .contact-text    { color: hsl(0, 0%, 8%); }
+
+/* ---- Previously-accented text → black ---- */
+body.light-theme .abstract-title  { color: hsl(0, 0%, 8%); font-weight: 600; }
+body.light-theme .research-motto  { color: hsl(0, 0%, 8%); }
+
+/* News — black text, black bullet */
+body.light-theme .news-item         { color: hsl(0, 0%, 8%); }
+body.light-theme .news-item::before { color: hsl(0, 0%, 8%); }
+
+/* Timeline — all text black */
+body.light-theme .timeline-list span  { color: hsl(0, 0%, 8%); }
+body.light-theme .timeline-item-title { color: hsl(0, 0%, 5%); }
+body.light-theme .timeline-text,
+body.light-theme .timeline-text2,
+body.light-theme .timeline-text3      { color: hsl(0, 0%, 8%); }
+
+/* ---- Inline style overrides ---- */
+
+/* color: white → black */
+body.light-theme [style*="color: white"],
+body.light-theme [style*="color:white"] { color: hsl(0, 0%, 8%) !important; }
+
+/* hsl(0, 0%, 84%) light-gray description spans → black */
+body.light-theme [style*="hsl(0, 0%, 84%)"] { color: hsl(0, 0%, 8%) !important; }
+
+/* inline gold links → steel blue */
+body.light-theme a[style*="hsl(45"],
+body.light-theme a[style*="hsl(35"]    { color: hsl(207, 72%, 40%) !important; }
+
+/* <a> tags with no href (used as plain text wrappers) → black, not blue */
+body.light-theme a:not([href]),
+body.light-theme a[href=""] { color: hsl(0, 0%, 8%); font-weight: normal; }
+
+/* ---- Timeline dots → black ---- */
+body.light-theme .timeline-item::after {
+  background: hsl(0, 0%, 8%);
+  box-shadow: 0 0 0 4px hsl(0, 0%, 88%);
+}
+
+/* ---- Timeline connector line ---- */
+body.light-theme .timeline-item:not(:last-child)::before { background: hsl(0, 0%, 82%); }
+
+/* ---- News container ---- */
+body.light-theme .news-container {
+  background: hsl(0, 0%, 100%);
+  border: 1.5px solid hsl(0, 0%, 8%);
+}
+
+body.light-theme .news-container::-webkit-scrollbar-track { background: hsl(0, 0%, 92%); }
+body.light-theme .news-container::-webkit-scrollbar-thumb { background: hsl(0, 0%, 65%); }
+
+/* ---- Scrollbars ---- */
+body.light-theme .has-scrollbar::-webkit-scrollbar-track,
+body.light-theme .research-modal::-webkit-scrollbar-track { background: hsl(0, 0%, 92%); }
+
+body.light-theme .has-scrollbar::-webkit-scrollbar-thumb { background: hsl(0, 0%, 65%); }
+
+body.light-theme .research-modal::-webkit-scrollbar-thumb {
+  background: hsla(0, 0%, 0%, 0.18);
+  border-color: hsl(0, 0%, 92%);
+}
+
+/* ---- Modal close button ---- */
+body.light-theme .modal-close-btn {
+  background: hsl(0, 0%, 90%);
+  color: hsl(0, 0%, 8%);
+}
+
+/* ---- Map ---- */
+body.light-theme .mapbox iframe { filter: none; }
+
+/* ---- Body page scrollbar (thumb nearly invisible without this) ---- */
+body.light-theme::-webkit-scrollbar-track { background: hsl(0, 0%, 92%); }
+body.light-theme::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 68%);
+  border-color: hsl(0, 0%, 92%);
+}
+
+/* ---- Sidebar expand button (info_more-btn) ---- */
+body.light-theme .info_more-btn {
+  background: hsl(0, 0%, 90%);
+  color: hsl(197, 65%, 36%);
+}
+body.light-theme .info_more-btn::before { background: hsl(0, 0%, 93%); }
+
+/* ---- filter-select / select-list dropdowns ---- */
+body.light-theme .filter-select,
+body.light-theme .select-list,
+body.light-theme .select-item button { background: hsl(0, 0%, 100%); color: hsl(0, 0%, 15%); }
+
+/* ---- carousel container ---- */
+body.light-theme .carousel-container { background: hsl(0, 0%, 97%); }
