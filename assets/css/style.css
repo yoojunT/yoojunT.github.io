@@ -1989,10 +1989,10 @@ body.light-theme {
 }
 
 /* ---- Global: all links → blue ---- */
-body.light-theme a { color: #0000FF; font-weight: bold; }
+body.light-theme a { color: #3949AB; font-weight: normal; }
 
 /* ---- Focus ring → steel blue ---- */
-body.light-theme :focus { outline-color: hsl(207, 72%, 40%); }
+body.light-theme :focus { outline-color: #3949AB; }
 
 /* ---- Navbar ---- */
 body.light-theme .navbar {
@@ -2034,7 +2034,7 @@ body.light-theme .icon-box::before { background: hsl(0, 0%, 90%); }
 
 /* ---- Social links → black, blue on hover ---- */
 body.light-theme .social-item .social-link       { color: hsl(0, 0%, 8%); }
-body.light-theme .social-item .social-link:hover { color: hsl(207, 72%, 40%); }
+body.light-theme .social-item .social-link:hover { color: #3949AB; }
 
 /* ---- Panel edges → black ---- */
 body.light-theme .sidebar {
@@ -2095,9 +2095,12 @@ body.light-theme [style*="color:white"] { color: hsl(0, 0%, 8%) !important; }
 /* hsl(0, 0%, 84%) light-gray description spans → black */
 body.light-theme [style*="hsl(0, 0%, 84%)"] { color: hsl(0, 0%, 8%) !important; }
 
-/* inline gold links → steel blue */
+/* inline gold links → teal */
 body.light-theme a[style*="hsl(45"],
-body.light-theme a[style*="hsl(35"]    { color: hsl(207, 72%, 40%) !important; }
+body.light-theme a[style*="hsl(35"]    { color: #3949AB !important; }
+
+/* Contact name → black */
+body.light-theme .contact-text1 a[style*="hsl(45"] { color: hsl(0, 0%, 8%) !important; }
 
 /* <a> tags with no href (used as plain text wrappers) → black, not blue */
 body.light-theme a:not([href]),
